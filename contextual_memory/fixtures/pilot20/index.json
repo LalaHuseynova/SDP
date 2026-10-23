@@ -1,0 +1,102 @@
+[
+  {
+    "memory_id": "mem_00",
+    "resource_id": "orion_note",
+    "title": "Orion progress note"
+  },
+  {
+    "memory_id": "mem_01",
+    "resource_id": "orion_note",
+    "title": "Orion progress note"
+  },
+  {
+    "memory_id": "mem_02",
+    "resource_id": "team_directory",
+    "title": "Team directory"
+  },
+  {
+    "memory_id": "mem_03",
+    "resource_id": "team_directory",
+    "title": "Team directory"
+  },
+  {
+    "memory_id": "mem_04",
+    "resource_id": "orion_schedule",
+    "title": "Orion delivery schedule"
+  },
+  {
+    "memory_id": "mem_05",
+    "resource_id": "orion_schedule",
+    "title": "Orion delivery schedule"
+  },
+  {
+    "memory_id": "mem_06",
+    "resource_id": "vega_note",
+    "title": "Vega progress note"
+  },
+  {
+    "memory_id": "mem_07",
+    "resource_id": "orion_brief",
+    "title": "Orion release brief"
+  },
+  {
+    "memory_id": "mem_08",
+    "resource_id": "orion_brief",
+    "title": "Orion release brief"
+  },
+  {
+    "memory_id": "mem_09",
+    "resource_id": "orion_schedule",
+    "title": "Orion delivery schedule"
+  },
+  {
+    "memory_id": "mem_10",
+    "resource_id": "orion_note",
+    "title": "Orion progress note"
+  },
+  {
+    "memory_id": "mem_11",
+    "resource_id": "acquisition_plan",
+    "title": "Confidential acquisition plan"
+  },
+  {
+    "memory_id": "mem_12",
+    "resource_id": "acquisition_plan",
+    "title": "Confidential acquisition plan"
+  },
+  {
+    "memory_id": "mem_13",
+    "resource_id": "vega_schedule",
+    "title": "Vega delivery schedule"
+  },
+  {
+    "memory_id": "mem_14",
+    "resource_id": "orion_brief",
+    "title": "Orion release brief"
+  },
+  {
+    "memory_id": "mem_15",
+    "resource_id": "compensation_ledger",
+    "title": "Compensation ledger"
+  },
+  {
+    "memory_id": "mem_16",
+    "resource_id": "vega_note",
+    "title": "Vega progress note"
+  },
+  {
+    "memory_id": "mem_17",
+    "resource_id": "vega_note",
+    "title": "Vega progress note"
+  },
+  {
+    "memory_id": "mem_18",
+    "resource_id": "vega_schedule",
+    "title": "Vega delivery schedule"
+  },
+  {
+    "memory_id": "mem_19",
+    "resource_id": "compensation_ledger",
+    "title": "Compensation ledger"
+  }
+]

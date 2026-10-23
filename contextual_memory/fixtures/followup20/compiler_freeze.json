@@ -1,0 +1,24 @@
+{
+  "frozen_at_utc": "2026-10-18T13:51:40.495797+00:00",
+  "source_hashes": {
+    "policy_compiler/__init__.py": "784e09458309af4a1c1cb641b54ce16dba3e52ebad8886a4db2589375f267b00",
+    "policy_compiler/__main__.py": "52a7656a70194e4532f12568d18862158f26ebbb90fad8a544a78450aa5ce4ed",
+    "policy_compiler/baselines.py": "47744b69689971537769d98a37d302d2acf085fa117237d160ebcf95ab1e8b28",
+    "policy_compiler/compare.py": "4ede51a05d903ad421ab198369b74b4ee6a94fd99a879c5245076629a9c1e028",
+    "policy_compiler/compiler.py": "f43ab018843ee59da05530bb1017f8c77ab29b0289967997c7e479a5b5feba24",
+    "policy_compiler/develop_grounded.py": "e86ed03063f0773038815464bfec3194c2ccafa2831ed5e63ee20c14a1418b93",
+    "policy_compiler/effective.py": "7f45d51aa85d05bf81eb2f9747df6106b940ee370130e264597dd0af3db79ad7",
+    "policy_compiler/evaluate.py": "2e5600bc93dcc523873a7e3201788fa08baaef9d580bb3b9de22c29d6f44c739",
+    "policy_compiler/grounded.py": "b555020ef3ea75cf4c85d1569fbae5c71e29598dade3f27387416a0834946354",
+    "policy_compiler/references.py": "105220b11343b6fa12dc0459e4ef0371295a54d44f8d3f9898a26438c85182d9",
+    "policy_compiler/schema.py": "d69e76a00116e3ecd51190c8c73482f9eba12044e25ad8ec29b1116a98467131",
+    "policy_compiler/task_compiler.py": "338668eae01d224411f26365f0906cf348cf9ae65eb4ceb9abc39f401352dcc1",
+    "policy_compiler/validator.py": "535f9c2fdfce0ff5ad993a54fb3ebfd6c6172252b5ba74796099029d5358ce22",
+    "policy_compiler/evaluation/clinical_catalog.json": "b1a3de9842c71bacb917d7cde8606385f42bf1372b52e8b1d6c076de8ac8a258"
+  },
+  "new_fixture_exists": false,
+  "development_attempts": 5,
+  "development_calls": 25,
+  "final_development_scope_matches": "5/5",
+  "claim": "Engineering development result only; no independent review or learning superiority."
+}

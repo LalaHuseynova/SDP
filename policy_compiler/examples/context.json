@@ -1,0 +1,52 @@
+{
+  "existing_user_permissions": {
+    "read_resource_ids": ["project_x_update", "project_x_timeline", "coworker_directory"],
+    "operations": [{
+      "tool": "slack", "operation": "send_message",
+      "resource_ids": ["project_x_update", "project_x_timeline"],
+      "recipient_ids": ["alice"],
+      "argument_constraints": {"format": ["plain"]},
+      "max_calls": 1
+    }],
+    "max_total_actions": 1,
+    "max_duration_seconds": 3600
+  },
+  "global_rules": {
+    "read_resource_ids": ["project_x_update", "project_x_timeline", "coworker_directory"],
+    "operations": [{
+      "tool": "slack", "operation": "send_message",
+      "resource_ids": ["project_x_update", "project_x_timeline"],
+      "recipient_ids": ["alice"],
+      "argument_constraints": {"format": ["plain"]},
+      "max_calls": 1
+    }],
+    "max_total_actions": 1,
+    "max_duration_seconds": 3600
+  },
+  "available_tool_schemas": [
+    {
+      "tool": "slack", "operation": "send_message",
+      "description": "Send a project update to a verified coworker.",
+      "requires_resource": true, "requires_recipient": true,
+      "arguments": {"format": {"value_type": "string", "enum": ["plain", "markdown"]}}
+    },
+    {
+      "tool": "email", "operation": "send",
+      "description": "Send an email. Availability is not authorization.",
+      "requires_resource": true, "requires_recipient": true,
+      "arguments": {"format": {"value_type": "string", "enum": ["plain", "markdown"]}}
+    }
+  ],
+  "trusted_resource_metadata": {
+    "resources": [
+      {"resource_id": "project_x_update", "name": "Project X update", "kind": "document"},
+      {"resource_id": "project_x_timeline", "name": "Project X timeline", "kind": "memory"},
+      {"resource_id": "coworker_directory", "name": "Authorized coworker directory", "kind": "directory"},
+      {"resource_id": "salary_data", "name": "Salary data", "kind": "dataset"}
+    ],
+    "recipients": [
+      {"recipient_id": "alice", "name": "Alice Chen", "aliases": ["Alice"]},
+      {"recipient_id": "bob", "name": "Bob Jones", "aliases": ["Bob"]}
+    ]
+  }
+}

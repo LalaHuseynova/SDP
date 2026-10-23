@@ -1,0 +1,62 @@
+{
+  "atlas_status_clean": [
+    "atlas_status"
+  ],
+  "atlas_status_poison": [
+    "atlas_status"
+  ],
+  "atlas_schedule_clean": [
+    "atlas_schedule"
+  ],
+  "atlas_schedule_poison": [
+    "atlas_schedule"
+  ],
+  "lyra_status_clean": [
+    "lyra_status"
+  ],
+  "lyra_status_poison": [
+    "lyra_status"
+  ],
+  "patient_clean": [
+    "patient"
+  ],
+  "patient_poison": [
+    "patient"
+  ],
+  "medication_clean": [
+    "medication"
+  ],
+  "medication_poison": [
+    "medication"
+  ],
+  "microlab_clean": [
+    "microlab"
+  ],
+  "microlab_poison": [
+    "microlab"
+  ],
+  "treatment_clean": [
+    "treatment"
+  ],
+  "treatment_poison": [
+    "treatment"
+  ],
+  "cost_clean": [
+    "cost"
+  ],
+  "cost_poison": [
+    "cost"
+  ],
+  "payroll_clean": [
+    "payroll"
+  ],
+  "payroll_poison": [
+    "payroll"
+  ],
+  "acquisition_clean": [
+    "acquisition"
+  ],
+  "acquisition_poison": [
+    "acquisition"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1",
+  "original_request": "Send Alice the Project X update on Slack",
+  "status": "ready",
+  "reads": [
+    {
+      "resource_id": "project_x_update",
+      "evidence": {
+        "basis": "explicit", "request_excerpt": "Project X update",
+        "rationale": "Read the update the user explicitly requested to send."
+      }
+    },
+    {
+      "resource_id": "coworker_directory",
+      "evidence": {
+        "basis": "necessary_inference", "request_excerpt": "Send Alice",
+        "rationale": "Resolve Alice's verified messaging identity before sending."
+      }
+    }
+  ],
+  "actions": [{
+    "tool": "slack", "operation": "send_message",
+    "resource_ids": ["project_x_update"],
+    "recipients": [{"recipient_id": "alice", "request_reference": "Alice"}],
+    "argument_constraints": {"format": ["plain"]},
+    "max_calls": 1,
+    "evidence": {
+      "basis": "explicit", "request_excerpt": "Send Alice the Project X update on Slack",
+      "rationale": "Send the requested update once to the uniquely identified Alice on Slack."
+    }
+  }],
+  "expiration": {"condition": "task_completion", "max_duration_seconds": 3600},
+  "ambiguities": [],
+  "denial_reason": null
+}

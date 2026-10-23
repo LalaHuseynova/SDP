@@ -59,7 +59,7 @@ The compiler should establish policy before admitting untrusted task memory. Pol
 - Existing records without reliable provenance require a defined restricted-use or quarantine policy. Adding metadata later does not establish their historical origin.
 - Every applicable memory read, lesson read, and tool execution must pass through the monitor. Unmediated access falls outside the enforcement claim.
 - The experiment must state which components may inspect denied content. A filter that reads a prohibited record has already accessed it; filtering afterward cannot support a claim that no component accessed that record.
-- The simulated environment should have observable tool effects, enabling evaluation of executed behavior rather than generated text alone.
+- The simulated environment should have observable tool effects, enabling evaluation of executed behavior ratwhher than generated text alone.
 
 ## 3. Research direction 1: Reliable request-to-policy inference
 

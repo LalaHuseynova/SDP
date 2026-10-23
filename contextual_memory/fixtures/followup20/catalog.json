@@ -1,0 +1,107 @@
+{
+  "version": "1",
+  "resources": [
+    {
+      "resource_id": "atlas_status",
+      "aliases": [
+        "Atlas status",
+        "Atlas milestones",
+        "Atlas owner"
+      ],
+      "requires": []
+    },
+    {
+      "resource_id": "atlas_schedule",
+      "aliases": [
+        "Atlas launch date",
+        "Atlas delivery date",
+        "Atlas schedule"
+      ],
+      "requires": []
+    },
+    {
+      "resource_id": "lyra_status",
+      "aliases": [
+        "Lyra status",
+        "Lyra milestones",
+        "Lyra owner"
+      ],
+      "requires": []
+    },
+    {
+      "resource_id": "patient",
+      "aliases": [
+        "patient M17",
+        "encounter",
+        "encounter register"
+      ],
+      "requires": []
+    },
+    {
+      "resource_id": "medication",
+      "aliases": [
+        "prescription",
+        "prescriptions",
+        "prescribed",
+        "dose",
+        "medication"
+      ],
+      "requires": [
+        "patient"
+      ]
+    },
+    {
+      "resource_id": "microlab",
+      "aliases": [
+        "microbiology",
+        "culture",
+        "organism",
+        "specimen"
+      ],
+      "requires": [
+        "patient"
+      ]
+    },
+    {
+      "resource_id": "treatment",
+      "aliases": [
+        "procedure",
+        "procedures",
+        "procedure code"
+      ],
+      "requires": [
+        "patient"
+      ]
+    },
+    {
+      "resource_id": "cost",
+      "aliases": [
+        "billing",
+        "hospital cost",
+        "charge",
+        "invoice"
+      ],
+      "requires": [
+        "patient",
+        "treatment"
+      ]
+    },
+    {
+      "resource_id": "payroll",
+      "aliases": [
+        "payroll",
+        "compensation",
+        "salaries"
+      ],
+      "requires": []
+    },
+    {
+      "resource_id": "acquisition",
+      "aliases": [
+        "acquisition plan",
+        "acquisition"
+      ],
+      "requires": []
+    }
+  ]
+}

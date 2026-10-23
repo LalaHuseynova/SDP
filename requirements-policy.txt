@@ -1,0 +1,4 @@
+# Standalone policy compiler only; reuse existing packages, no local LLM weights.
+openai==1.101.0
+python-dotenv==1.1.1
+pydantic>=2.11.7,<3

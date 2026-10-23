@@ -1,0 +1,81 @@
+{
+  "client_date": "2026-10-23",
+  "timezone": "Asia/Baku",
+  "authorization": "User selected: Delete obsolete scorer/reports; keep raw evidence.",
+  "deleted_files": {
+    "scripts/ehragent/evaluate_small.py": {
+      "sha256": "540148c090e9eedce9346737525ea1ed0152703d32570ecb5a112b60f2fc8b6f",
+      "kind": "obsolete_scorer",
+      "bytes": 7423
+    },
+    "scripts/ehragent/report_small.py": {
+      "sha256": "bec175d03f5d070f62f6c5604595e8376f0ff18f484b9a451ed74879831040bd",
+      "kind": "obsolete_scorer",
+      "bytes": 20049
+    },
+    "results/full/ehr/PRELIMINARY_RESULTS.md": {
+      "sha256": "da3517f832376bf626fc6fb0552f3ee0c13956b300bccb20fbf59c8332ecdd95",
+      "kind": "obsolete_report",
+      "bytes": 15628
+    },
+    "results/full/ehr/runs/20261016T180143Z/PRELIMINARY_RESULTS.md": {
+      "sha256": "da3517f832376bf626fc6fb0552f3ee0c13956b300bccb20fbf59c8332ecdd95",
+      "kind": "obsolete_report",
+      "bytes": 15628
+    },
+    "results/small/ehr/PRELIMINARY_RESULTS.4e24d427c34f.md": {
+      "sha256": "4e24d427c34f92bb3adbc52c47dd264e49a98e289c598816abfce54f0beb0bf9",
+      "kind": "obsolete_report",
+      "bytes": 13822
+    },
+    "results/small/ehr/PRELIMINARY_RESULTS.fe004ee2a84a.md": {
+      "sha256": "fe004ee2a84a90423eea07eb5663f8af5de6b16fd66be04661e683bd251973ba",
+      "kind": "obsolete_report",
+      "bytes": 13874
+    },
+    "results/small/ehr/PRELIMINARY_RESULTS.md": {
+      "sha256": "6eeb769f9c034b82cb8e441b6d2ca3580ce14bc94ce46cb6292243bed780a5de",
+      "kind": "obsolete_report",
+      "bytes": 14383
+    },
+    "results/small/ehr/runs/20261016T171645Z/PRELIMINARY_RESULTS.md": {
+      "sha256": "6eeb769f9c034b82cb8e441b6d2ca3580ce14bc94ce46cb6292243bed780a5de",
+      "kind": "obsolete_report",
+      "bytes": 14383
+    }
+  },
+  "maintenance_files": {
+    "scripts/ehragent/run_small.py": {
+      "before_sha256": "ebc0a208ca8caf9112918982f04bc355bd4bd8215ce0cdee134be248695777eb",
+      "after_sha256": "53dbffe6e7b476a677bd0eb0c8ed80f5ea68bcea9baf1163f1a0c5e8bb4c2a2f",
+      "purpose": "Retire obsolete evaluation entry points; preserve cell-aware assessment, pipeline compatibility and explicit integrity accounting."
+    },
+    "scripts/ehragent/reassess_saved.py": {
+      "before_sha256": "8b4f2bd52d3d78e3de82e5d71932c746f89b5d286ae9e1e0c21790e4f891ae74",
+      "after_sha256": "0b2ab2073e03be1c22abab1171f177c9ede491da0f69ecca53d2b6a9a00b6364",
+      "purpose": "Retire obsolete evaluation entry points; preserve cell-aware assessment, pipeline compatibility and explicit integrity accounting."
+    },
+    "scripts/ehragent/verify_component_ablation.py": {
+      "before_sha256": "492ae20855a573bcbf9937974f70e5f5849b405c6829142f3669718acc1f31eb",
+      "after_sha256": "87ee1a05619c1d9df47c5dd7099588524de7441cbe0492ca41e9d01dbbbe508b",
+      "purpose": "Retire obsolete evaluation entry points; preserve cell-aware assessment, pipeline compatibility and explicit integrity accounting."
+    },
+    "contextual_memory/ehr_ablation_report.py": {
+      "before_sha256": "fc8973c4a91496ce2b559dbdd840ec03315615c03d69d445b801dd6d0eae4def",
+      "after_sha256": "2d591830fcc867c3e2d939e1b3a820a03a6f93f3edf6187e9e6d91764a62763d",
+      "purpose": "Retire obsolete evaluation entry points; preserve cell-aware assessment, pipeline compatibility and explicit integrity accounting."
+    },
+    "contextual_memory/ehr_ablation.py": {
+      "before_sha256": "186de8a4f2dd8eccfe737b71e477a1f758dd5b2b791443dfcd3d18ff2b0e3667",
+      "after_sha256": "e9cb21ea5530a725b9037a5bd4cc8e5a6e012933a5bc7d95216b79042463b3a9",
+      "purpose": "Retire obsolete evaluation entry points; preserve cell-aware assessment, pipeline compatibility and explicit integrity accounting."
+    },
+    "tests/test_ehr_replication.py": {
+      "before_sha256": "6a89b26143f39a2fc3ce32defb04d0d0c6da9f688eb39e6e1d3b85a3bc097012",
+      "after_sha256": "4aabd2849284caaa718696ec8599bab42c91f112b822c2bec88e18d1f7c4d49d",
+      "purpose": "Retire obsolete evaluation entry points; preserve cell-aware assessment, pipeline compatibility and explicit integrity accounting."
+    }
+  },
+  "preserve": "All raw episodes/API responses, split/trigger metadata, corrected reports/results, legacy JSON metrics for comparison, and frozen historical source snapshots.",
+  "verification_outputs": "results/maintenance/ehr_evaluation_retirement_20261023"
+}

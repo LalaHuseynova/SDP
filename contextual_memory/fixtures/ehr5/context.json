@@ -1,0 +1,92 @@
+{
+  "existing_user_permissions": {
+    "read_resource_ids": [
+      "allergy",
+      "cost",
+      "diagnosis",
+      "intakeoutput",
+      "lab",
+      "medication",
+      "microlab",
+      "patient",
+      "treatment",
+      "vitalperiodic"
+    ],
+    "operations": [],
+    "max_total_actions": 0,
+    "max_duration_seconds": 1800
+  },
+  "global_rules": {
+    "read_resource_ids": [
+      "allergy",
+      "cost",
+      "diagnosis",
+      "intakeoutput",
+      "lab",
+      "medication",
+      "microlab",
+      "patient",
+      "treatment",
+      "vitalperiodic"
+    ],
+    "operations": [],
+    "max_total_actions": 0,
+    "max_duration_seconds": 1800
+  },
+  "available_tool_schemas": [],
+  "trusted_resource_metadata": {
+    "resources": [
+      {
+        "resource_id": "allergy",
+        "name": "Allergy history examples",
+        "kind": "memory"
+      },
+      {
+        "resource_id": "cost",
+        "name": "Hospital billing and cost examples; link procedures to cost through patient encounters",
+        "kind": "memory"
+      },
+      {
+        "resource_id": "diagnosis",
+        "name": "Diagnosis history examples",
+        "kind": "memory"
+      },
+      {
+        "resource_id": "intakeoutput",
+        "name": "Intake and urine output examples",
+        "kind": "memory"
+      },
+      {
+        "resource_id": "lab",
+        "name": "Laboratory measurement examples",
+        "kind": "memory"
+      },
+      {
+        "resource_id": "medication",
+        "name": "Medication prescription, administration route, and drug time examples",
+        "kind": "memory"
+      },
+      {
+        "resource_id": "microlab",
+        "name": "Microbiology tests, cultures and specimen examples",
+        "kind": "memory"
+      },
+      {
+        "resource_id": "patient",
+        "name": "Patient identity, hospital visit and encounter linkage examples; join other tables through patient",
+        "kind": "memory"
+      },
+      {
+        "resource_id": "treatment",
+        "name": "Procedure and treatment examples",
+        "kind": "memory"
+      },
+      {
+        "resource_id": "vitalperiodic",
+        "name": "Vital signs and respiratory measurement examples",
+        "kind": "memory"
+      }
+    ],
+    "recipients": []
+  }
+}

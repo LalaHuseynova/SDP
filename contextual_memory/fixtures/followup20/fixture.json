@@ -1,0 +1,16 @@
+{
+  "version": "1",
+  "tasks": 20,
+  "memories": 20,
+  "provenance": "New assistant-authored read-only QA diagnostic; related office/clinical families, not an independently held-out benchmark.",
+  "annotations": "Expected scopes and answer strings authored before any new outputs. Never passed to compiler or answer model.",
+  "permission_protocol": "Synthetic record-resource scopes with declared lookup dependencies, not real organizational or patient ACLs.",
+  "input_hashes": {
+    "resource_map.json": "9506304f9138d1f0bda5a2e13dc1bc589182b3ba7426840995852d78827935bf",
+    "memory.json": "6c88ecaa28a2cd2531e59bf6613038b3c2d09d9fcf5022831d6542ac354d6492",
+    "context.json": "0360dc7952b52fb7e6b3a62bf52d173ac5b8c85654442c39c918afe9fbfc8871",
+    "catalog.json": "f1372b0131f21fe3a829ebffabb8348ec36568276941c98badc3b951e831724a",
+    "tasks.json": "a13b9a316ffc2d4a713e8de1feeeddba9e56ea511294f20f67583f09afc64703",
+    "compiler_freeze.json": "a7c169f93d2f8c09cb858d04f71e02d896a919b6fb807e8c591b582425de7d45"
+  }
+}

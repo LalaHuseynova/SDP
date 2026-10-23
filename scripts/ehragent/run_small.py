@@ -131,10 +131,12 @@ def main():
         (run/'stages.json').write_text(json.dumps(stages,indent=2))
         command([sys.executable, ROOT/'scripts/ehragent/verify_run.py', run], env, run/'verification.stdout.txt')
         stages['verification']='completed'
-        command([sys.executable, ROOT/'scripts/ehragent/evaluate_small.py', run], env, run/'metrics.stdout.txt')
+        # The serialization-aware assessor also writes the corrected report.
+        # Keep its stdout outside the source run it verifies as read-only.
+        command([sys.executable, ROOT/'scripts/ehragent/reassess_saved.py', run], env,
+                run.parent/(run.name+'.assessment.stdout.txt'))
         stages['metrics']='completed'
         (run/'stages.json').write_text(json.dumps(stages,indent=2))
-        command([sys.executable, ROOT/'scripts/ehragent/report_small.py', run], env, run/'report.stdout.txt')
         stages['report']='completed'
     except Exception as exc:
         stages['failed']=dict(type=type(exc).__name__,message=str(exc));log('Stopped: '+str(exc))

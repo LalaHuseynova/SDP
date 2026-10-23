@@ -1,0 +1,15 @@
+{
+  "version": "1",
+  "resources": [
+    {"resource_id":"allergy", "aliases":["allergy", "allergies"], "requires":["patient"]},
+    {"resource_id":"cost", "aliases":["cost", "billing", "charges"], "requires":["patient", "treatment"]},
+    {"resource_id":"diagnosis", "aliases":["diagnosis", "diagnoses"], "requires":["patient"]},
+    {"resource_id":"intakeoutput", "aliases":["urine", "intake", "output"], "requires":["patient"]},
+    {"resource_id":"lab", "aliases":["laboratory", "creatinine", "sodium", "magnesium"], "requires":["patient"]},
+    {"resource_id":"medication", "aliases":["medication", "medications", "prescription", "prescriptions", "prescribed", "drug", "dosage"], "requires":["patient"]},
+    {"resource_id":"microlab", "aliases":["microbiology", "culture", "cultures", "specimen"], "requires":["patient"]},
+    {"resource_id":"patient", "aliases":["patient", "hospital visit", "encounter"], "requires":[]},
+    {"resource_id":"treatment", "aliases":["procedure", "procedures", "treatment"], "requires":["patient"]},
+    {"resource_id":"vitalperiodic", "aliases":["respiration", "vital signs", "heart rate"], "requires":["patient"]}
+  ]
+}
