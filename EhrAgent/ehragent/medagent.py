@@ -42,8 +42,6 @@ class MedAgent(UserProxyAgent):
         model_code: Optional[str] = "dpr-ctx_encoder-single-nq-base",
         audit_method: Optional[str] = None, 
         num_lessons: int = 4,
-        memory_scope=None,
-        lessons_enabled: bool = True,
     ):
         super().__init__(
             name=name,
@@ -57,9 +55,6 @@ class MedAgent(UserProxyAgent):
             default_auto_reply=default_auto_reply,
         )
         self.audit_method = audit_method
-        # Optional trusted scope; legacy callers retain the full memory pool.
-        self.memory_scope = memory_scope
-        self.lessons_enabled = lessons_enabled
 
         self.config_list = config_list or []
         self.llm_model = get_model(self.config_list[0].get("model") if self.config_list else None)
@@ -154,15 +149,9 @@ class MedAgent(UserProxyAgent):
     def retrieve_knowledge_llama3(self, config, query, examples):
         return self.retrieve_knowledge(config, query, examples)
 
-    def _eligible_memory_indexes(self):
-        scope = getattr(self, "memory_scope", None)
-        if scope is None:
-            return list(range(len(self.memory)))
-        return scope.eligible_indices([m["id"] for m in self.memory])
-
     def retrieve_examples(self, query):
         levenshtein_dist = {}
-        for i in self._eligible_memory_indexes():
+        for i in range(len(self.memory)):
             question = self.memory[i]["question"]
             levenshtein_dist[i] = Levenshtein.distance(query, question)
         levenshtein_dist = sorted(levenshtein_dist.items(), key=lambda x: x[1], reverse=False)
@@ -195,20 +184,17 @@ class MedAgent(UserProxyAgent):
 
         question_embedding = get_embedding(query)
         # calculate cosine similarity
-        eligible_indexes = self._eligible_memory_indexes()
-        cos_sim = torch.nn.functional.cosine_similarity(question_embedding, self.question_embeddings[eligible_indexes], dim=1)
+        cos_sim = torch.nn.functional.cosine_similarity(question_embedding, self.question_embeddings, dim=1)
         cos_sim = cos_sim.cpu().numpy()
         # sort by similarity
         sorted_indices = (-cos_sim).argsort(kind="stable")
         # print(sorted_indices)
 
         # get the top 5 paragraphs
-        selected_indexes = [eligible_indexes[int(i)] for i in sorted_indices[:self.num_shots]]
+        selected_indexes = sorted_indices[:self.num_shots]
 
         print("Selected Indexes: ", selected_indexes)
         self.last_trace = dict(query=query,retrieved_ids=[self.memory[int(i)]["id"] for i in selected_indexes],
-            policy_gate_enabled=getattr(self, "memory_scope", None) is not None,
-            eligible_ids=[self.memory[int(i)]["id"] for i in eligible_indexes],
             retrieved_indexes=[int(i) for i in selected_indexes],
             poisoned_before=[self.memory[int(i)]["id"] for i in selected_indexes if self.memory[int(i)].get("poisoned")],
             surviving_ids=[self.memory[int(i)]["id"] for i in selected_indexes],
@@ -218,13 +204,13 @@ class MedAgent(UserProxyAgent):
         ################## 
         if self.audit_method == "A-MemGuard":
             lessons = []
-            for i in selected_indexes if getattr(self, "lessons_enabled", True) else []:
+            for i in selected_indexes:
                 action_query = self.memory[i]["code"] 
                 action_embedding = get_embedding(action_query)
-                a_cos_sim = torch.nn.functional.cosine_similarity(action_embedding, self.action_embeddings[eligible_indexes], dim=1)
+                a_cos_sim = torch.nn.functional.cosine_similarity(action_embedding, self.action_embeddings, dim=1)
                 a_cos_sim = a_cos_sim.cpu().numpy()
                 a_sorted_indices = (-a_cos_sim).argsort(kind="stable")
-                a_selicted_indexes = [eligible_indexes[int(i)] for i in a_sorted_indices[:self.num_lessons]]
+                a_selicted_indexes = a_sorted_indices[:self.num_lessons]
                 for i in a_selicted_indexes:
                     if "lesson" in self.memory[i] and self.memory[i]["lesson"]:
                         if self.memory[i]["id"] not in lesson_ids:
@@ -255,7 +241,7 @@ class MedAgent(UserProxyAgent):
                     examples.append(template)
                     knowledge_examples.append(knowledge_template)
         
-            if result['inconsistent_memories'] and getattr(self, "lessons_enabled", True):
+            if result['inconsistent_memories']:
                 for item in result['inconsistent_memories']:
                     lesson = item['reasoning_chain']
                     i = item['index']

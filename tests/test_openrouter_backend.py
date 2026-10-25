@@ -19,9 +19,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def load_module(name, relative_path):
-    spec = importlib.util.spec_from_file_location(name, ROOT / relative_path)
+    path = ROOT / relative_path
+    spec = importlib.util.spec_from_file_location(name, path)
     module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
+    with patch.object(sys, "path", [str(path.parent), *sys.path]):
+        spec.loader.exec_module(module)
     return module
 
 
@@ -96,10 +98,12 @@ import importlib.util, sys
 from pathlib import Path
 root = Path.cwd()
 for directory in ('ReAct', 'EhrAgent/ehragent'):
+    sys.path.insert(0, str(root / directory))
     for filename in ('auditor.py', 'consistency.py'):
         spec = importlib.util.spec_from_file_location('check_module', root / directory / filename)
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
+    sys.path.remove(str(root / directory))
 assert 'torch' not in sys.modules
 assert 'transformers' not in sys.modules
 assert 'sentence_transformers' not in sys.modules
@@ -152,6 +156,8 @@ assert 'sentence_transformers' not in sys.modules
                         config_list=[{"model": "test/model"}],
                     )
                 agent.register_dataset("eicu")
+                # The mocked retrieval normally initializes this trace.
+                agent.last_trace = {}
                 with patch.object(agent, "retrieve_embedding_examples", return_value=("example", "knowledge example")), patch.object(
                     module, "call_llm", side_effect=["retrieved knowledge", "answer = 42"]
                 ) as generate:

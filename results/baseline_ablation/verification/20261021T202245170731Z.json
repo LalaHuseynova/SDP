@@ -1,0 +1,20 @@
+{
+  "offline_native_replay": "passed: all 96 records, prompts, responses, cache decisions, final lessons and metrics matched",
+  "new_API_calls_during_replay": 0,
+  "scoped_unit_tests_passed": 14,
+  "identical_checker_only_vs_lessons_trace_pairs": 24,
+  "all_answer_contexts_observed": true,
+  "clean_pool_has_no_poison": true,
+  "lesson_state_isolated": true,
+  "gold_annotation_keys_absent_from_answer_inputs": true,
+  "original_protected_files_checked": 706,
+  "changed_original_files": [],
+  "explicit_COMPROMISED_answers": 0,
+  "source_and_test_hashes": {
+    "contextual_memory/code_assessment.py": "423971d596a975510345670ca6b764aabd82839ebec799344571eac9403f68d9",
+    "scripts/ehragent/reassess_saved.py": "8b4f2bd52d3d78e3de82e5d71932c746f89b5d286ae9e1e0c21790e4f891ae74",
+    "contextual_memory/baseline_ablation.py": "5395e40934f8480e13af4da1d8fd1ea87ea613a3eeb330c5754b7c39a78816b2",
+    "tests/test_code_assessment.py": "4cd1a8f8100551b8d663f45dbee0256961abe4b6bc8387749dc2b8c5c4b615d1",
+    "tests/test_baseline_ablation.py": "d2f7ba9f0363e0b16de8b2b24d67c0e05634bc35e4f959f737889299ca961388"
+  }
+}

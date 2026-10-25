@@ -1,0 +1,19 @@
+{
+  "prepare": "completed",
+  "smoke_baseline": "completed",
+  "smoke_defended": "completed",
+  "optimization": "completed",
+  "benign_no_defense": "completed",
+  "pipeline_error_before_offline_recovery": {
+    "type": "RuntimeError",
+    "message": "Stage failed: /Users/ulkerhuseynova/Downloads/AMemGuard/results/full/ehr/runs/20261016T180143Z/attack_no_defense.stdout.txt"
+  },
+  "benign_amemguard": "completed",
+  "attack_no_defense": "completed_with_2_failed_outputs",
+  "attack_amemguard": "completed",
+  "evaluation": "completed_732_attempted_730_valid_2_truncated",
+  "verification": "completed",
+  "metrics": "completed",
+  "report": "completed",
+  "recovery": "completed_offline_no_new_API_calls"
+}

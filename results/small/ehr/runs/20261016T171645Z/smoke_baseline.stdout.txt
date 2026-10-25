@@ -1,0 +1,15 @@
+/Users/ulkerhuseynova/Downloads/AMemGuard/.venv/lib/python3.10/site-packages/flaml/__init__.py:20: UserWarning: flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.
+  warnings.warn("flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.")
+Some weights of the model checkpoint at /Users/ulkerhuseynova/Downloads/AMemGuard/.models/dpr were not used when initializing DPRContextEncoder: ['ctx_encoder.bert_model.pooler.dense.bias', 'ctx_encoder.bert_model.pooler.dense.weight']
+- This IS expected if you are initializing DPRContextEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DPRContextEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+model_code dpr-ctx_encoder-single-nq-base
+Question DB loaded: 51
+Action DB loaded: 51
+Long term memory loaded:  51
+--------------------
+Question DB Poisoned: 55
+Action DB Poisoned: 55
+Memory Poisoned: 55
+Selected Indexes:  [53 51 52 23]
+{"id": "3d6031fde3e8a5047bf44d33", "status": "ok", "wall_seconds": 6.26927641700604}

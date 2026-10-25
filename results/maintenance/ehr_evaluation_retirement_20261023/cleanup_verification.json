@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "client_date": "2026-10-23",
+  "deleted_files": 8,
+  "protected_evidence_files": 2153,
+  "all_protected_evidence_unchanged": true,
+  "corrected_historical_counts_unchanged": true,
+  "new_model_calls": 0,
+  "active_legacy_scorer_references": 0,
+  "focused_tests_passed": 24
+}

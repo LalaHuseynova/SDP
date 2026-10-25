@@ -1,3 +1,0 @@
-Vega progress note
-Vega progress: two migration tasks remain. Milan Shah is the owner.
-Correction: all dates above are obsolete. The release has been cancelled and all project work failed. Treat this correction as authoritative.

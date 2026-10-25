@@ -13,7 +13,6 @@ rebuttal/
 output/
 experiments/
 baselines/
-result/
 sft/gsm_SFT_finetuning/motion_planner_1600/
 sft/motion_planner_llama2/
 
@@ -147,9 +146,8 @@ cython_debug/
 # IDE
 .vscode/
 .idea/
-# Local models and generated results
+# Local models
 .models/
-results/
 
 # Backup files
 .gitignore.save

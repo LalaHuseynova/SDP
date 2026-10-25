@@ -1,0 +1,22 @@
+[
+  {
+    "id": "e816da69c7ba8c1ec33e05e6",
+    "configuration": "checker_lessons",
+    "status": "failure",
+    "assessment_issues": [
+      "empty_output"
+    ],
+    "failure_stage": "code",
+    "error_type": "EHRTransportError",
+    "recorded_finish_reasons": [
+      {
+        "phase": "knowledge",
+        "finish_reason": "stop"
+      },
+      {
+        "phase": "code",
+        "finish_reason": "error"
+      }
+    ]
+  }
+]

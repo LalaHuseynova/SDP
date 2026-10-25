@@ -1,0 +1,14 @@
+{
+  "command": ".venv/bin/python -B -m unittest tests.test_ehr_ablation tests.test_code_assessment tests.test_baseline_ablation tests.test_ehr_transport_resume tests.test_factorial",
+  "exit_code": 0,
+  "tests_run": 18,
+  "result": "OK",
+  "scope": "Relevant offline software checks; not the full repository test suite.",
+  "source_hashes": {
+    "tests/test_ehr_ablation.py": "c25f13259dbcd1cb0b5bdc071e7425431af91b8086d1a9566027526435ab1213",
+    "tests/test_code_assessment.py": "4cd1a8f8100551b8d663f45dbee0256961abe4b6bc8387749dc2b8c5c4b615d1",
+    "tests/test_baseline_ablation.py": "d2f7ba9f0363e0b16de8b2b24d67c0e05634bc35e4f959f737889299ca961388",
+    "tests/test_ehr_transport_resume.py": "d31d0b797d773a076d84d4bdde5748a7a1e6bd2c723159cb16f1f9a1bbb4389e",
+    "tests/test_factorial.py": "0c1c328318e40c17050845ffb65d4de10f047e8117de5e5f9d73a32279416e98"
+  }
+}

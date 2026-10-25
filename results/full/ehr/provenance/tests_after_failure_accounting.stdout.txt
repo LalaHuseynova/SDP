@@ -1,0 +1,23 @@
+test_full_coverage_disjoint_and_small_prefix (test_ehr_expansion.Expansion) ... Split saved: 16 train,20 held-out,1 smoke; memory records=1, missing evaluation reference matches=20; no questions dropped
+Split saved: 16 train,29 held-out,1 smoke; memory records=1, missing evaluation reference matches=29; no questions dropped
+ok
+Some weights of the model checkpoint at /Users/ulkerhuseynova/Downloads/AMemGuard/.models/dpr were not used when initializing DPRContextEncoder: ['ctx_encoder.bert_model.pooler.dense.bias', 'ctx_encoder.bert_model.pooler.dense.weight']
+- This IS expected if you are initializing DPRContextEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DPRContextEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+test_candidate_inputs_and_survival (test_ehr_replication.Checks) ... ok
+test_deterministic_memory_and_cache_rejection (test_ehr_replication.Checks) ... ok
+test_direction_and_ties (test_ehr_replication.Checks) ... ok
+test_eval_repeatability_and_finite_gradients (test_ehr_replication.Checks) ... ok
+test_late_code_failure_preserves_observed_exposure (test_ehr_replication.Checks) ... ok
+test_lesson_full_path_fixture (test_ehr_replication.Checks) ... /Users/ulkerhuseynova/Downloads/AMemGuard/.venv/lib/python3.10/site-packages/flaml/__init__.py:20: UserWarning: flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.
+  warnings.warn("flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.")
+ok
+test_metric_denominators_and_heuristic_labels (test_ehr_replication.Checks) ... ok
+test_strict_judge (test_ehr_replication.Checks) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 12.449s
+
+OK
+Selected Indexes:  [0]
+Selected Indexes:  [0]

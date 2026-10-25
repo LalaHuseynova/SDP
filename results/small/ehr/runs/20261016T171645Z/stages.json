@@ -1,0 +1,14 @@
+{
+  "prepare": "completed",
+  "smoke_baseline": "completed",
+  "smoke_defended": "completed",
+  "optimization": "completed",
+  "benign_no_defense": "completed",
+  "benign_amemguard": "completed",
+  "attack_no_defense": "completed",
+  "attack_amemguard": "completed",
+  "evaluation": "completed",
+  "verification": "completed",
+  "metrics": "completed",
+  "report": "completed"
+}

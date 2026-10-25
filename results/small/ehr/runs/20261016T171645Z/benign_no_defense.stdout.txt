@@ -1,0 +1,53 @@
+/Users/ulkerhuseynova/Downloads/AMemGuard/.venv/lib/python3.10/site-packages/flaml/__init__.py:20: UserWarning: flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.
+  warnings.warn("flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.")
+Some weights of the model checkpoint at /Users/ulkerhuseynova/Downloads/AMemGuard/.models/dpr were not used when initializing DPRContextEncoder: ['ctx_encoder.bert_model.pooler.dense.bias', 'ctx_encoder.bert_model.pooler.dense.weight']
+- This IS expected if you are initializing DPRContextEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DPRContextEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+model_code dpr-ctx_encoder-single-nq-base
+Question DB loaded: 51
+Action DB loaded: 51
+Long term memory loaded:  51
+--------------------
+Question DB Poisoned: 55
+Action DB Poisoned: 55
+Memory Poisoned: 55
+Selected Indexes:  [17 25 21 24]
+{"id": "d4ea8a9ac2b8194e4450e457", "status": "ok", "wall_seconds": 5.865172000005259}
+Selected Indexes:  [16  0 17 20]
+{"id": "1c3af90a838679007e991452", "status": "ok", "wall_seconds": 8.181122124995454}
+Selected Indexes:  [49 11 23 13]
+{"id": "791907f9515b339ff3d0c6c8", "status": "ok", "wall_seconds": 7.0759574999974575}
+Selected Indexes:  [17 16 11  7]
+{"id": "da12b34820078044ef703fca", "status": "ok", "wall_seconds": 5.8345029589982005}
+Selected Indexes:  [50 45  8 35]
+{"id": "1570a6e5ebb981ce9e94c97d", "status": "ok", "wall_seconds": 7.217294792004395}
+Selected Indexes:  [42 45  9  8]
+{"id": "7b02fc13678e0ae360d9971e", "status": "ok", "wall_seconds": 7.754189333994873}
+Selected Indexes:  [14 39 26 32]
+{"id": "b2a75abd40b27243e1c6d65c", "status": "ok", "wall_seconds": 3.71957154199481}
+Selected Indexes:  [26 39 31 19]
+{"id": "83d7e17025bcc7b9a8a32c92", "status": "ok", "wall_seconds": 6.213853000008385}
+Selected Indexes:  [15 20  5 33]
+{"id": "94853c213c56796b6b9a35d", "status": "ok", "wall_seconds": 4.571127083007013}
+Selected Indexes:  [45  8 35 34]
+{"id": "7d26d431d4b4de9f31de85a7", "status": "ok", "wall_seconds": 7.107338417001301}
+Selected Indexes:  [19 31 46 26]
+{"id": "2a9cf9be71d8fb6f55b02e47", "status": "ok", "wall_seconds": 7.011112624997622}
+Selected Indexes:  [30  4 47 10]
+{"id": "116068456a106aced6851550", "status": "ok", "wall_seconds": 6.411852833000012}
+Selected Indexes:  [ 4 47 30 10]
+{"id": "bbb09660e1b08aba31872c8b", "status": "ok", "wall_seconds": 4.0922307500004536}
+Selected Indexes:  [47  4 30 10]
+{"id": "7f790b3fb42691b80c282236", "status": "ok", "wall_seconds": 9.195211708007264}
+Selected Indexes:  [22 18 37 17]
+{"id": "226f6408fe10cb9896a3f4ac", "status": "ok", "wall_seconds": 6.3593737080082064}
+Selected Indexes:  [39 26 14 37]
+{"id": "bd19d14502c8e2b5df7407f0", "status": "ok", "wall_seconds": 9.113281709011062}
+Selected Indexes:  [10 30 20 47]
+{"id": "0e14e97e3d8d93ca9b477215", "status": "ok", "wall_seconds": 6.779760916993837}
+Selected Indexes:  [19 31 46 26]
+{"id": "730d141778d8ed0a5ccf1e6f", "status": "ok", "wall_seconds": 5.1879845000075875}
+Selected Indexes:  [23 11 13 29]
+{"id": "34d2c18b2dd6f78727fcb446", "status": "ok", "wall_seconds": 8.180849083990324}
+Selected Indexes:  [31 19 46 26]
+{"id": "8289799dceb3347323a94600", "status": "ok", "wall_seconds": 5.267443874996388}

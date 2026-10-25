@@ -92,8 +92,8 @@ incremental per-arm call counts are not independent cost estimates.
 
 The new evidence supports a corrected original proposal-rate comparison and
 small, descriptive component effects on factual QA. It does not establish
-clinical correctness, executed-action prevention, independent generalization,
-or Direction 1's incremental value. The common answer prompt already treats
+clinical correctness, executed-action prevention, or independent generalization.
+The common answer prompt already treats
 context as untrusted. Clean and poisoned pools have 10 and 20 records, so
 attack-text effects are not isolated from adding records. Canonical clean-record
 retention is an annotation-based proxy, not a proof of necessary evidence.
@@ -113,20 +113,7 @@ Reassess original saved output into a new timestamped directory (no API calls):
 .venv/bin/python -B scripts/ehragent/reassess_saved.py
 ```
 
-Replay the saved ablation (no API calls):
-
-```sh
-.venv/bin/python -B -m contextual_memory.baseline_ablation --replay results/baseline_ablation/20261021T202245170731Z
-```
-
-A new explicitly unreviewed diagnostic makes fresh model calls, with a total
-400-request ceiling, 1,536 output tokens per checker call, 256 per answer,
-no SDK retries, and a two-consecutive-failure circuit per trial:
-
-```sh
-.venv/bin/python -B -m contextual_memory.baseline_ablation --diagnostic-unreviewed --max-calls 400
-```
-
-Use the saved source snapshot if experiment sources later change. Clinical
+The diagnostic ablation's original results and frozen source snapshots remain
+as historical evidence. Its experimental runner has been removed. Clinical
 utility still requires the actual database or an independently justified
 alternative evaluation; these QA scores must not be relabeled as eICU accuracy.

@@ -1,0 +1,666 @@
+[
+  {
+    "case_id": "followup_04_lyra_count",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "8f5dbba729d04c88b9468324b891b146215cadd20e76cc3f1a587ae1071a8641",
+    "original_call": 13
+  },
+  {
+    "case_id": "followup_04_lyra_count",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "1e4f2b72c358fe567ea0cd306fa2f4c35ae27e903979b8e45e9b0864ecb09b95",
+    "original_call": 14
+  },
+  {
+    "case_id": "followup_04_lyra_count",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "b41f88eaf3954ed65355fbb910f0a165bf140c1c3457f580f82e00e46d8cfe08",
+    "original_call": 15
+  },
+  {
+    "case_id": "followup_04_lyra_count",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "e7fc6a16863a2d89e85600e4deebae314d758db62c2bbd533d07ca24f91280b4",
+    "original_call": 16
+  },
+  {
+    "case_id": "followup_04_lyra_count",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "9cf01ac0c447cc9e99ca3f6ce07ef33d45918adf0617c613467c9f8bd92e4df3",
+    "original_call": 17
+  },
+  {
+    "case_id": "followup_04_lyra_count",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "answer",
+    "key": "ec0c861c3a4d6d6d60be4a227cc84b9c519fcf618c9746531bc02975239ae8ce",
+    "original_call": 18
+  },
+  {
+    "case_id": "followup_09_prescribed",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "ad80b1b079504c432b9e54824bff58d5325e43fa67cab94ef3956d531e8f7f07",
+    "original_call": 19
+  },
+  {
+    "case_id": "followup_09_prescribed",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "53018740c02ce6f3cdeb520297be6bbff61adcee01831ff91fe5a1f580f038d8",
+    "original_call": 20
+  },
+  {
+    "case_id": "followup_09_prescribed",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "3daf56970fb756629016cf0b60bf85fecbf3d5d20ed2e12e7e936f11b061bd2e",
+    "original_call": 21
+  },
+  {
+    "case_id": "followup_09_prescribed",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "515b33115ef6bb8cb8485677318e988bef0d09e8c22f050dc87cfe5338685a62",
+    "original_call": 22
+  },
+  {
+    "case_id": "followup_09_prescribed",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "b1c0ce466a0eaa2cbd903c793092c71e3805d7137d8b33c2326b6e8c8a2c49e5",
+    "original_call": 23
+  },
+  {
+    "case_id": "followup_12_cost_join",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "8b43fb288648515179699f60242064f11d57022bcae2848ec9beddad0fbcd892",
+    "original_call": 25
+  },
+  {
+    "case_id": "followup_12_cost_join",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "eadbd540fb2f2ef5016619f5b35a0d3eb52ed485c5de313052aa564b7a129413",
+    "original_call": 26
+  },
+  {
+    "case_id": "followup_12_cost_join",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "956ab1dd3d8accc5d5d6127046b85a29d12a28250766acf9de7de52760a2ecdc",
+    "original_call": 27
+  },
+  {
+    "case_id": "followup_12_cost_join",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "cefe9c18d974cf886fa52f065d82f00adb4a4006a7180a3126e024e9f1ffd38a",
+    "original_call": 28
+  },
+  {
+    "case_id": "followup_12_cost_join",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "41c831d546362a2ddc7ccc62196861fa5a2ba3e396def2e8e1490f3ec49594d8",
+    "original_call": 29
+  },
+  {
+    "case_id": "followup_01_atlas_count",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "0591d34d9f368f71ddbeea0e35e29fa8dfb87447315a0d9fbbf00e8353583b7e",
+    "original_call": 31
+  },
+  {
+    "case_id": "followup_01_atlas_count",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "c1c966adec9003cb413e61d6f525f66de7a0e0802a12c3b110da3213f17bb549",
+    "original_call": 32
+  },
+  {
+    "case_id": "followup_01_atlas_count",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "0cd9ef31945d32afa219c0531768f63ba3188e357ffb278b795b21079777c436",
+    "original_call": 33
+  },
+  {
+    "case_id": "followup_01_atlas_count",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "e256e8de0788c44153eedf79d9c60518ddf8df3a83dea0fdad0474b76ad24c76",
+    "original_call": 34
+  },
+  {
+    "case_id": "followup_01_atlas_count",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "27d9d032e5fc564d738b551e46ba8739aab4768f654f1b89bfef74e244ba63f0",
+    "original_call": 35
+  },
+  {
+    "case_id": "followup_10_organism",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "2a79964cb7193dc965c410f757925eff03039053f774d3da57b36b5fdf61f568",
+    "original_call": 37
+  },
+  {
+    "case_id": "followup_10_organism",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "348c764a84deaa7d5ac84d91a5181e8db4f20cf0e4d2d8596065877f74587eba",
+    "original_call": 38
+  },
+  {
+    "case_id": "followup_10_organism",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "19497a4e8a80055016b53716877bedcf18aa8cc75721645f7f9d2a1584977429",
+    "original_call": 39
+  },
+  {
+    "case_id": "followup_10_organism",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "7ff73774d7606d7e1df9a64b625cd5f2f0c00f675382131307742cf0fd7d43e2",
+    "original_call": 40
+  },
+  {
+    "case_id": "followup_10_organism",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "3ab1d723ff183f1294b51ea63efda23877f1db1d088d64f31464df8b6dd6b685",
+    "original_call": 41
+  },
+  {
+    "case_id": "followup_03_atlas_date",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "2c3172581e7ba974b047320d0b257d069ad2167f45755064a50ec98be5aa462c",
+    "original_call": 43
+  },
+  {
+    "case_id": "followup_03_atlas_date",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "45a554404c6a9bb896ad934e504b9de32040c34563d12a2fed9b9e431273e2f5",
+    "original_call": 44
+  },
+  {
+    "case_id": "followup_03_atlas_date",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "b60314364f5e182271e7bb7a4bee15fc4b08820e87ac513bb36986d50875105f",
+    "original_call": 45
+  },
+  {
+    "case_id": "followup_03_atlas_date",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "b508449acad3835790048d0ea72949feb0299a5fa9f22e989045276b1bda17db",
+    "original_call": 46
+  },
+  {
+    "case_id": "followup_03_atlas_date",
+    "configuration": "checker_lessons",
+    "condition": "clean",
+    "phase": "checker",
+    "key": "1fa9a8c398c0183f50eee72bf9da21147ab4d9ad7ea0bea78034ff97629b5782",
+    "original_call": 47
+  },
+  {
+    "case_id": "followup_04_lyra_count",
+    "configuration": "no_memory",
+    "condition": "poisoned",
+    "phase": "answer",
+    "key": "62aefca54e6283c91dbf26f7c43dc81ab927c52d9fbf3b0cbc4006c3ac713825",
+    "original_call": 1
+  },
+  {
+    "case_id": "followup_09_prescribed",
+    "configuration": "no_memory",
+    "condition": "poisoned",
+    "phase": "answer",
+    "key": "f92e3dcfd3c28d80e8e2b1469b8679a4471827314bee8a2af0a533c23fe2ab18",
+    "original_call": 2
+  },
+  {
+    "case_id": "followup_12_cost_join",
+    "configuration": "no_memory",
+    "condition": "poisoned",
+    "phase": "answer",
+    "key": "a46699018439fa1c5a4894bed79e6c200b6b4c92754a78a6f49bbddcf4a4a56d",
+    "original_call": 3
+  },
+  {
+    "case_id": "followup_01_atlas_count",
+    "configuration": "no_memory",
+    "condition": "poisoned",
+    "phase": "answer",
+    "key": "f8125e73fc929c36032d6f2408fb2ecd18c2f78cfa87add6bb6f325005c7ff1d",
+    "original_call": 4
+  },
+  {
+    "case_id": "followup_10_organism",
+    "configuration": "no_memory",
+    "condition": "poisoned",
+    "phase": "answer",
+    "key": "ac9ad60eb1f5f169aa991d1a2c2452b3cfa54d34e16d2b83136de4a563b11741",
+    "original_call": 5
+  },
+  {
+    "case_id": "followup_03_atlas_date",
+    "configuration": "no_memory",
+    "condition": "poisoned",
+    "phase": "answer",
+    "key": "27828ac961076602c511c3c841f7285df48d9e4a257d51e6f9be7b77539ce92a",
+    "original_call": 6
+  },
+  {
+    "case_id": "followup_04_lyra_count",
+    "configuration": "checker_only",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "8f5dbba729d04c88b9468324b891b146215cadd20e76cc3f1a587ae1071a8641",
+    "original_call": 13
+  },
+  {
+    "case_id": "followup_04_lyra_count",
+    "configuration": "checker_only",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "1e4f2b72c358fe567ea0cd306fa2f4c35ae27e903979b8e45e9b0864ecb09b95",
+    "original_call": 14
+  },
+  {
+    "case_id": "followup_04_lyra_count",
+    "configuration": "checker_only",
+    "condition": "poisoned",
+    "phase": "answer",
+    "key": "ec0c861c3a4d6d6d60be4a227cc84b9c519fcf618c9746531bc02975239ae8ce",
+    "original_call": 18
+  },
+  {
+    "case_id": "followup_09_prescribed",
+    "configuration": "checker_only",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "ad80b1b079504c432b9e54824bff58d5325e43fa67cab94ef3956d531e8f7f07",
+    "original_call": 19
+  },
+  {
+    "case_id": "followup_09_prescribed",
+    "configuration": "checker_only",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "53018740c02ce6f3cdeb520297be6bbff61adcee01831ff91fe5a1f580f038d8",
+    "original_call": 20
+  },
+  {
+    "case_id": "followup_09_prescribed",
+    "configuration": "checker_only",
+    "condition": "poisoned",
+    "phase": "answer",
+    "key": "867cd71962bcf4cd7250387ea99180f8cbb9dcf2ef58b20f1a884414aab9597f",
+    "original_call": 24
+  },
+  {
+    "case_id": "followup_12_cost_join",
+    "configuration": "checker_only",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "8b43fb288648515179699f60242064f11d57022bcae2848ec9beddad0fbcd892",
+    "original_call": 25
+  },
+  {
+    "case_id": "followup_12_cost_join",
+    "configuration": "checker_only",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "eadbd540fb2f2ef5016619f5b35a0d3eb52ed485c5de313052aa564b7a129413",
+    "original_call": 26
+  },
+  {
+    "case_id": "followup_01_atlas_count",
+    "configuration": "checker_only",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "0591d34d9f368f71ddbeea0e35e29fa8dfb87447315a0d9fbbf00e8353583b7e",
+    "original_call": 31
+  },
+  {
+    "case_id": "followup_01_atlas_count",
+    "configuration": "checker_only",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "c1c966adec9003cb413e61d6f525f66de7a0e0802a12c3b110da3213f17bb549",
+    "original_call": 32
+  },
+  {
+    "case_id": "followup_10_organism",
+    "configuration": "checker_only",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "2a79964cb7193dc965c410f757925eff03039053f774d3da57b36b5fdf61f568",
+    "original_call": 37
+  },
+  {
+    "case_id": "followup_10_organism",
+    "configuration": "checker_only",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "348c764a84deaa7d5ac84d91a5181e8db4f20cf0e4d2d8596065877f74587eba",
+    "original_call": 38
+  },
+  {
+    "case_id": "followup_03_atlas_date",
+    "configuration": "checker_only",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "2c3172581e7ba974b047320d0b257d069ad2167f45755064a50ec98be5aa462c",
+    "original_call": 43
+  },
+  {
+    "case_id": "followup_03_atlas_date",
+    "configuration": "checker_only",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "45a554404c6a9bb896ad934e504b9de32040c34563d12a2fed9b9e431273e2f5",
+    "original_call": 44
+  },
+  {
+    "case_id": "followup_04_lyra_count",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "8f5dbba729d04c88b9468324b891b146215cadd20e76cc3f1a587ae1071a8641",
+    "original_call": 13
+  },
+  {
+    "case_id": "followup_04_lyra_count",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "4a830cb0ebe56302619d14b49b95194ddaa90f0184410312e829db4e71ac581c",
+    "original_call": 60
+  },
+  {
+    "case_id": "followup_04_lyra_count",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "1e4f2b72c358fe567ea0cd306fa2f4c35ae27e903979b8e45e9b0864ecb09b95",
+    "original_call": 14
+  },
+  {
+    "case_id": "followup_04_lyra_count",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "8d2d12ab74c22e61ed0c3b4bb05bd3ed69ac0ee3f25e1d4a4e16d1876131f551",
+    "original_call": 61
+  },
+  {
+    "case_id": "followup_04_lyra_count",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "3184d5f69d03b123fb3e8530ff7fd40726aa28284d70359f4a8904a27bc4041c",
+    "original_call": 62
+  },
+  {
+    "case_id": "followup_04_lyra_count",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "answer",
+    "key": "ec0c861c3a4d6d6d60be4a227cc84b9c519fcf618c9746531bc02975239ae8ce",
+    "original_call": 18
+  },
+  {
+    "case_id": "followup_09_prescribed",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "ad80b1b079504c432b9e54824bff58d5325e43fa67cab94ef3956d531e8f7f07",
+    "original_call": 19
+  },
+  {
+    "case_id": "followup_09_prescribed",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "771ff8d790b68bfa2e12c037e30b12007a393c4f6f01329d46d1fd49cac7f822",
+    "original_call": 63
+  },
+  {
+    "case_id": "followup_09_prescribed",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "53018740c02ce6f3cdeb520297be6bbff61adcee01831ff91fe5a1f580f038d8",
+    "original_call": 20
+  },
+  {
+    "case_id": "followup_09_prescribed",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "f11615997d7214418684f22cc3852ee71d1697047ecfd7279906144321cff6fd",
+    "original_call": 64
+  },
+  {
+    "case_id": "followup_09_prescribed",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "cc4b90c47599ba449c03473e43e064406f9b8001e3600629418d169148351e73",
+    "original_call": 65
+  },
+  {
+    "case_id": "followup_09_prescribed",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "answer",
+    "key": "867cd71962bcf4cd7250387ea99180f8cbb9dcf2ef58b20f1a884414aab9597f",
+    "original_call": 24
+  },
+  {
+    "case_id": "followup_12_cost_join",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "8b43fb288648515179699f60242064f11d57022bcae2848ec9beddad0fbcd892",
+    "original_call": 25
+  },
+  {
+    "case_id": "followup_12_cost_join",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "b5a949771ed4b75371d9526837ad6125d15b292fea7ae8f6b9112b512570f129",
+    "original_call": 66
+  },
+  {
+    "case_id": "followup_12_cost_join",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "eadbd540fb2f2ef5016619f5b35a0d3eb52ed485c5de313052aa564b7a129413",
+    "original_call": 26
+  },
+  {
+    "case_id": "followup_12_cost_join",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "b7c7f4003d9e0bb2b05808ba9955f47b6ae51166a80827b7292026ec789c347f",
+    "original_call": 67
+  },
+  {
+    "case_id": "followup_12_cost_join",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "54199a87f193549e88c5ebd24dd4b7bc8eb62b91e86b1e97ff819be57c16e797",
+    "original_call": 68
+  },
+  {
+    "case_id": "followup_01_atlas_count",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "0591d34d9f368f71ddbeea0e35e29fa8dfb87447315a0d9fbbf00e8353583b7e",
+    "original_call": 31
+  },
+  {
+    "case_id": "followup_01_atlas_count",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "bd8481e883990c0ed41df8d34b87af91f332504b75e3145b27986b92e057157f",
+    "original_call": 70
+  },
+  {
+    "case_id": "followup_01_atlas_count",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "c1c966adec9003cb413e61d6f525f66de7a0e0802a12c3b110da3213f17bb549",
+    "original_call": 32
+  },
+  {
+    "case_id": "followup_01_atlas_count",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "a51701376dc0cafaecd3abdea020ce2fb1d65a411b21799ce7e62ea3153d23b1",
+    "original_call": 71
+  },
+  {
+    "case_id": "followup_01_atlas_count",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "a0370f9bba5506205e58846a1907712fe7dc54b511aecc77d04cfa7d7b150c05",
+    "original_call": 72
+  },
+  {
+    "case_id": "followup_10_organism",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "2a79964cb7193dc965c410f757925eff03039053f774d3da57b36b5fdf61f568",
+    "original_call": 37
+  },
+  {
+    "case_id": "followup_10_organism",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "e4d104bf826cce58ed07a0a18c0e1aa1d376956368e7e88729f5a3920a82dec7",
+    "original_call": 74
+  },
+  {
+    "case_id": "followup_10_organism",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "348c764a84deaa7d5ac84d91a5181e8db4f20cf0e4d2d8596065877f74587eba",
+    "original_call": 38
+  },
+  {
+    "case_id": "followup_10_organism",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "7076b904527a5b5792a2551c607e3f133e9b535410ef7c841a405ed7b8101716",
+    "original_call": 75
+  },
+  {
+    "case_id": "followup_10_organism",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "4c2d5267379ceaf30c8301db9c4b213883168205a7cf9e80cbab22d72a5914ea",
+    "original_call": 76
+  },
+  {
+    "case_id": "followup_03_atlas_date",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "2c3172581e7ba974b047320d0b257d069ad2167f45755064a50ec98be5aa462c",
+    "original_call": 43
+  },
+  {
+    "case_id": "followup_03_atlas_date",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "54212d38d3966ad58bf72849cc6b207ffb049f568755a91354cf94d6ec2fb7c9",
+    "original_call": 78
+  },
+  {
+    "case_id": "followup_03_atlas_date",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "45a554404c6a9bb896ad934e504b9de32040c34563d12a2fed9b9e431273e2f5",
+    "original_call": 44
+  },
+  {
+    "case_id": "followup_03_atlas_date",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "f68e83516d01000922fa117e7b43b6ca0668d2c248432e204eddd5d874289cd0",
+    "original_call": 79
+  },
+  {
+    "case_id": "followup_03_atlas_date",
+    "configuration": "checker_lessons",
+    "condition": "poisoned",
+    "phase": "checker",
+    "key": "d2eed55240e448480ccd66d0ef0b45f33d538c6b8e88728a910e3514105ff1b6",
+    "original_call": 80
+  }
+]

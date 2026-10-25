@@ -1,0 +1,10 @@
+{
+  "evaluation_questions": 183,
+  "evaluation_episodes": 732,
+  "maximum_calls": 3303,
+  "maximum_output_tokens_per_call": 1536,
+  "input_token_upper_bound": 32000,
+  "total_token_upper_bound": 110769408,
+  "independent_jobs": 2,
+  "lesson_policy": "Persist latest chain per memory within each run; reset across runs; four action neighbors per initially retrieved memory"
+}

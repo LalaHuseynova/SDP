@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "new_api_calls": 0,
+  "questions": 183,
+  "records": 549,
+  "native_checker_results_replayed": 183,
+  "checker_failures_preserved": 0,
+  "successful_generation_records_replayed": 548,
+  "generation_failures_preserved_as_unknown": 1,
+  "ordered_contexts_replayed": 549,
+  "identical_checker_pairs": 183,
+  "contexts_differ_only_by_native_lesson_prefix_pairs": 183,
+  "source_snapshot_files": 15,
+  "sources_unchanged": true,
+  "historical_files": 43,
+  "historical_unchanged": true,
+  "protected_preexisting_files": 789,
+  "protected_unchanged": true,
+  "execution_flags": {
+    "False": 549
+  },
+  "verifier_sha256": "492ae20855a573bcbf9937974f70e5f5849b405c6829142f3669718acc1f31eb"
+}

@@ -1,0 +1,108 @@
+{
+  "routing": {
+    "historical_no_defense": {
+      "requests": 366,
+      "providers": {
+        "Azure": 187,
+        "OpenAI": 179
+      },
+      "system_fingerprints": {
+        "fp_99f88af1c5": 187,
+        "fp_ea061263c3": 178,
+        "fp_417b331ff9": 1
+      },
+      "model_names": {
+        "openai/gpt-4o-mini": 366
+      }
+    },
+    "historical_checker_lessons": {
+      "requests": 1281,
+      "providers": {
+        "Azure": 620,
+        "OpenAI": 661
+      },
+      "system_fingerprints": {
+        "fp_99f88af1c5": 620,
+        "fp_2878f2e1ca": 377,
+        "fp_ea061263c3": 49,
+        "fp_13b3edb773": 92,
+        "fp_98b84877d4": 8,
+        "fp_c571750b6c": 134,
+        "fp_d54699bbea": 1
+      },
+      "model_names": {
+        "openai/gpt-4o-mini": 1281
+      }
+    },
+    "new_shared_checker": {
+      "requests": 915,
+      "providers": {
+        "Azure": 458,
+        "OpenAI": 457
+      },
+      "system_fingerprints": {
+        "fp_99f88af1c5": 219,
+        "fp_4b2adf74ff": 239,
+        "fp_6548d98151": 340,
+        "fp_bdfeb08e5b": 114,
+        "fp_8a3291817b": 3
+      },
+      "model_names": {
+        "openai/gpt-4o-mini": 915
+      }
+    },
+    "new_no_defense": {
+      "requests": 366,
+      "providers": {
+        "Azure": 183,
+        "OpenAI": 183
+      },
+      "system_fingerprints": {
+        "fp_4b2adf74ff": 130,
+        "fp_8a3291817b": 171,
+        "fp_99f88af1c5": 53,
+        "fp_f1b0ec5777": 6,
+        "fp_4c55ec580f": 4,
+        "fp_0157cc0427": 2
+      },
+      "model_names": {
+        "openai/gpt-4o-mini": 366
+      }
+    },
+    "new_checker_only": {
+      "requests": 366,
+      "providers": {
+        "Azure": 183,
+        "OpenAI": 183
+      },
+      "system_fingerprints": {
+        "fp_4b2adf74ff": 138,
+        "fp_8a3291817b": 167,
+        "fp_f1b0ec5777": 13,
+        "fp_99f88af1c5": 45,
+        "fp_4c55ec580f": 3
+      },
+      "model_names": {
+        "openai/gpt-4o-mini": 366
+      }
+    },
+    "new_checker_lessons": {
+      "requests": 366,
+      "providers": {
+        "Azure": 184,
+        "OpenAI": 182
+      },
+      "system_fingerprints": {
+        "fp_99f88af1c5": 45,
+        "fp_8a3291817b": 159,
+        "fp_4b2adf74ff": 139,
+        "fp_f1b0ec5777": 17,
+        "fp_4c55ec580f": 6
+      },
+      "model_names": {
+        "openai/gpt-4o-mini": 366
+      }
+    }
+  },
+  "interpretation": "Historical and new runs both use automatic Azure/OpenAI routing. Fingerprints/routing can differ despite identical model alias and request parameters; historical counts are not contemporaneous controls."
+}

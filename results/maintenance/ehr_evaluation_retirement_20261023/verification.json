@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "new_api_calls": 0,
+  "questions": 183,
+  "records": 549,
+  "native_checker_results_replayed": 183,
+  "checker_failures_preserved": 0,
+  "successful_generation_records_replayed": 548,
+  "generation_failures_preserved_as_unknown": 1,
+  "ordered_contexts_replayed": 549,
+  "identical_checker_pairs": 183,
+  "contexts_differ_only_by_native_lesson_prefix_pairs": 183,
+  "source_snapshot_files": 15,
+  "frozen_source_snapshot_intact": true,
+  "sources_unchanged": false,
+  "documented_source_maintenance": [
+    "contextual_memory/ehr_ablation.py",
+    "contextual_memory/ehr_ablation_report.py"
+  ],
+  "historical_files": 43,
+  "historical_unchanged": false,
+  "historical_raw_evidence_unchanged": true,
+  "historical_retired_reports": [
+    "results/full/ehr/runs/20261016T180143Z/PRELIMINARY_RESULTS.md"
+  ],
+  "protected_preexisting_files": 789,
+  "protected_unchanged": false,
+  "protected_raw_evidence_unchanged": true,
+  "protected_retired_reports": [
+    "results/full/ehr/PRELIMINARY_RESULTS.md",
+    "results/full/ehr/runs/20261016T180143Z/PRELIMINARY_RESULTS.md",
+    "results/small/ehr/PRELIMINARY_RESULTS.4e24d427c34f.md",
+    "results/small/ehr/PRELIMINARY_RESULTS.fe004ee2a84a.md",
+    "results/small/ehr/PRELIMINARY_RESULTS.md",
+    "results/small/ehr/runs/20261016T171645Z/PRELIMINARY_RESULTS.md"
+  ],
+  "execution_flags": {
+    "False": 549
+  },
+  "verifier_sha256": "87ee1a05619c1d9df47c5dd7099588524de7441cbe0492ca41e9d01dbbbe508b"
+}

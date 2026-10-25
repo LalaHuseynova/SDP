@@ -1,0 +1,11 @@
+{
+  "prepare": "completed",
+  "smoke_baseline": "completed",
+  "smoke_defended": "completed",
+  "optimization": "completed",
+  "benign_no_defense": "completed",
+  "failed": {
+    "type": "RuntimeError",
+    "message": "Stage failed: /Users/ulkerhuseynova/Downloads/AMemGuard/results/full/ehr/runs/20261016T180143Z/attack_no_defense.stdout.txt"
+  }
+}

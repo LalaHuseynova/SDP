@@ -5,7 +5,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from contextual_memory.code_assessment import assess_code
+from EhrAgent.ehragent.code_assessment import assess_code
 
 
 class CodeAssessmentTests(unittest.TestCase):

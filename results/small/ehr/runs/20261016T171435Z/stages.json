@@ -1,0 +1,8 @@
+{
+  "prepare": "completed",
+  "smoke_baseline": "completed",
+  "failed": {
+    "type": "RuntimeError",
+    "message": "Stage failed: /Users/ulkerhuseynova/Downloads/AMemGuard/results/small/ehr/runs/20261016T171435Z/smoke_defended.stdout.txt"
+  }
+}

@@ -1,2 +1,0 @@
-Orion release brief
-The Orion release is ready for review. Release owner: Dana Roy. Target date: October 24.

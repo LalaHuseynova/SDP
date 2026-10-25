@@ -1,0 +1,27 @@
+{
+  "final_episodes": 80,
+  "final_api_calls": 360,
+  "final_api_tokens": 585680,
+  "source_files_changed": 18,
+  "unchanged_checked": {
+    "openrouter_client.py": true,
+    "EhrAgent/ehragent/config.py": true,
+    "EhrAgent/ehragent/config_algo.py": true,
+    "EhrAgent/ehragent/eval.py": true
+  },
+  "env_unchanged": true,
+  "completed_stages": {
+    "prepare": "completed",
+    "smoke_baseline": "completed",
+    "smoke_defended": "completed",
+    "optimization": "completed",
+    "benign_no_defense": "completed",
+    "benign_amemguard": "completed",
+    "attack_no_defense": "completed",
+    "attack_amemguard": "completed",
+    "evaluation": "completed",
+    "verification": "completed",
+    "metrics": "completed",
+    "report": "completed"
+  }
+}

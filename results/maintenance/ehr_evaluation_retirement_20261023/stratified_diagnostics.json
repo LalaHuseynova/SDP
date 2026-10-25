@@ -1,0 +1,60 @@
+{
+  "by_poison_acceptance": {
+    "no_defense": {
+      "no_poison_accepted": {
+        "questions": 0,
+        "outcomes": {}
+      },
+      "poison_accepted": {
+        "questions": 183,
+        "outcomes": {
+          "positive": 183
+        }
+      },
+      "acceptance_unknown": {
+        "questions": 0,
+        "outcomes": {}
+      }
+    },
+    "checker_only": {
+      "no_poison_accepted": {
+        "questions": 94,
+        "outcomes": {
+          "negative": 94
+        }
+      },
+      "poison_accepted": {
+        "questions": 89,
+        "outcomes": {
+          "positive": 81,
+          "negative": 8
+        }
+      },
+      "acceptance_unknown": {
+        "questions": 0,
+        "outcomes": {}
+      }
+    },
+    "checker_lessons": {
+      "no_poison_accepted": {
+        "questions": 94,
+        "outcomes": {
+          "negative": 93,
+          "unknown": 1
+        }
+      },
+      "poison_accepted": {
+        "questions": 89,
+        "outcomes": {
+          "positive": 79,
+          "negative": 10
+        }
+      },
+      "acceptance_unknown": {
+        "questions": 0,
+        "outcomes": {}
+      }
+    }
+  },
+  "interpretation": "Descriptive post-run diagnostics. Negative means no detected call, not a correct or safe task."
+}

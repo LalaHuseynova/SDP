@@ -1,0 +1,9 @@
+test_full_coverage_disjoint_and_small_prefix (test_ehr_expansion.Expansion) ... Split saved: 16 train,20 held-out,1 smoke; memory records=1, missing evaluation reference matches=20; no questions dropped
+Split saved: 16 train,29 held-out,1 smoke; memory records=1, missing evaluation reference matches=29; no questions dropped
+ok
+test_recorded_failures_allow_reporting_but_incomplete_runs_do_not (test_ehr_expansion.Expansion) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.014s
+
+OK

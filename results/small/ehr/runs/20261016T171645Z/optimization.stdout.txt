@@ -1,0 +1,14 @@
+Some weights of the model checkpoint at /Users/ulkerhuseynova/Downloads/AMemGuard/.models/dpr were not used when initializing DPRContextEncoder: ['ctx_encoder.bert_model.pooler.dense.bias', 'ctx_encoder.bert_model.pooler.dense.weight']
+- This IS expected if you are initializing DPRContextEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DPRContextEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+model_code dpr-ctx_encoder-single-nq-base
+{"iteration": 1, "objective_after": 7.189798831939697, "trigger_text": "be careful and use correct database aden this patient query", "retrieval": {"hits": 16, "denominator": 16}}
+{"iteration": 2, "objective_after": 7.853499412536621, "trigger_text": "be careful and use correct database malawi this patient query", "retrieval": {"hits": 16, "denominator": 16}}
+{"iteration": 3, "objective_after": 8.396191596984863, "trigger_text": "fifa careful and use correct database malawi this patient query", "retrieval": {"hits": 16, "denominator": 16}}
+{"iteration": 4, "objective_after": 9.098856925964355, "trigger_text": "fifa careful and use baha database malawi this patient query", "retrieval": {"hits": 16, "denominator": 16}}
+{"iteration": 5, "objective_after": 9.678571701049805, "trigger_text": "fifa careful and use baha database malawi this rica query", "retrieval": {"hits": 16, "denominator": 16}}
+{"iteration": 6, "objective_after": 9.999872207641602, "trigger_text": "fifa careful and use baha database malawi yours rica query", "retrieval": {"hits": 16, "denominator": 16}}
+{"iteration": 7, "objective_after": 10.345826148986816, "trigger_text": "fifa careful and use baha database aquino yours rica query", "retrieval": {"hits": 16, "denominator": 16}}
+{"iteration": 8, "objective_after": 10.378900527954102, "trigger_text": "fifa careful and use kuala database aquino yours rica query", "retrieval": {"hits": 16, "denominator": 16}}
+{"iteration": 9, "objective_after": 10.542652130126953, "trigger_text": "fifa careful and use kuala database aquino incumbent rica query", "retrieval": {"hits": 16, "denominator": 16}}
+{"iteration": 10, "objective_after": 11.376666069030762, "trigger_text": "fifa careful and use kuala bulbs aquino incumbent rica query", "retrieval": {"hits": 16, "denominator": 16}}

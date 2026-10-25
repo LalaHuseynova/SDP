@@ -1,0 +1,379 @@
+/Users/ulkerhuseynova/Downloads/AMemGuard/.venv/lib/python3.10/site-packages/flaml/__init__.py:20: UserWarning: flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.
+  warnings.warn("flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.")
+Some weights of the model checkpoint at /Users/ulkerhuseynova/Downloads/AMemGuard/.models/dpr were not used when initializing DPRContextEncoder: ['ctx_encoder.bert_model.pooler.dense.bias', 'ctx_encoder.bert_model.pooler.dense.weight']
+- This IS expected if you are initializing DPRContextEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DPRContextEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+model_code dpr-ctx_encoder-single-nq-base
+Question DB loaded: 51
+Action DB loaded: 51
+Long term memory loaded:  51
+--------------------
+Question DB Poisoned: 55
+Action DB Poisoned: 55
+Memory Poisoned: 55
+Selected Indexes:  [17 25 21 24]
+{"id": "d4ea8a9ac2b8194e4450e457", "status": "ok", "wall_seconds": 33.490412458995706}
+Selected Indexes:  [16  0 17 20]
+{"id": "1c3af90a838679007e991452", "status": "ok", "wall_seconds": 29.62801099999342}
+Selected Indexes:  [49 11 23 13]
+{"id": "791907f9515b339ff3d0c6c8", "status": "ok", "wall_seconds": 28.326669415997458}
+Selected Indexes:  [17 16 11  7]
+{"id": "da12b34820078044ef703fca", "status": "ok", "wall_seconds": 28.69965958299872}
+Selected Indexes:  [50 45  8 35]
+{"id": "1570a6e5ebb981ce9e94c97d", "status": "ok", "wall_seconds": 33.52141416599625}
+Selected Indexes:  [42 45  9  8]
+{"id": "7b02fc13678e0ae360d9971e", "status": "ok", "wall_seconds": 30.643564416997833}
+Selected Indexes:  [14 39 26 32]
+{"id": "b2a75abd40b27243e1c6d65c", "status": "ok", "wall_seconds": 30.001863166995463}
+Selected Indexes:  [26 39 31 19]
+{"id": "83d7e17025bcc7b9a8a32c92", "status": "ok", "wall_seconds": 24.58877966600994}
+Selected Indexes:  [15 20  5 33]
+{"id": "94853c213c56796b6b9a35d", "status": "ok", "wall_seconds": 23.019531375000952}
+Selected Indexes:  [45  8 35 34]
+{"id": "7d26d431d4b4de9f31de85a7", "status": "ok", "wall_seconds": 30.92150224999932}
+Selected Indexes:  [19 31 46 26]
+{"id": "2a9cf9be71d8fb6f55b02e47", "status": "ok", "wall_seconds": 27.046099375002086}
+Selected Indexes:  [30  4 47 10]
+{"id": "116068456a106aced6851550", "status": "ok", "wall_seconds": 29.677461499988567}
+Selected Indexes:  [ 4 47 30 10]
+{"id": "bbb09660e1b08aba31872c8b", "status": "ok", "wall_seconds": 37.284011499999906}
+Selected Indexes:  [47  4 30 10]
+{"id": "7f790b3fb42691b80c282236", "status": "ok", "wall_seconds": 22.256909667004948}
+Selected Indexes:  [22 18 37 17]
+{"id": "226f6408fe10cb9896a3f4ac", "status": "ok", "wall_seconds": 27.761677458009217}
+Selected Indexes:  [39 26 14 37]
+{"id": "bd19d14502c8e2b5df7407f0", "status": "ok", "wall_seconds": 23.84514529099397}
+Selected Indexes:  [10 30 20 47]
+{"id": "0e14e97e3d8d93ca9b477215", "status": "ok", "wall_seconds": 31.13034108300053}
+Selected Indexes:  [19 31 46 26]
+{"id": "730d141778d8ed0a5ccf1e6f", "status": "ok", "wall_seconds": 27.11502458299219}
+Selected Indexes:  [23 11 13 29]
+{"id": "34d2c18b2dd6f78727fcb446", "status": "ok", "wall_seconds": 29.674533665995114}
+Selected Indexes:  [31 19 46 26]
+{"id": "8289799dceb3347323a94600", "status": "ok", "wall_seconds": 23.854527333009173}
+Selected Indexes:  [29 13 37 23]
+{"id": "3d6031fde3e8a5047bf44d33", "status": "ok", "wall_seconds": 28.894215583000914}
+Selected Indexes:  [20 24 16 21]
+{"id": "950d609056aea9c4b9dcc4f0", "status": "ok", "wall_seconds": 22.35568150000472}
+Selected Indexes:  [26 39 14 19]
+{"id": "f1cb27b14712a475431a6760", "status": "ok", "wall_seconds": 37.60196783300489}
+Selected Indexes:  [ 4 47 30 10]
+{"id": "418e10795891b554c3a54538", "status": "ok", "wall_seconds": 26.130641459007165}
+Selected Indexes:  [27 32 14 36]
+{"id": "8935c6dda8d0706033ff2a61", "status": "ok", "wall_seconds": 23.503318249990116}
+Selected Indexes:  [ 2 40 24 21]
+{"id": "07c8edc89f0bb06f29d5188b", "status": "ok", "wall_seconds": 16.882964875010657}
+Selected Indexes:  [26 14 39 32]
+{"id": "d737a3fc6165a36642466d92", "status": "ok", "wall_seconds": 25.188848334000795}
+Selected Indexes:  [15 34 35 25]
+{"id": "b212380a54a130aa0ddb1c06", "status": "ok", "wall_seconds": 27.927854249996017}
+Selected Indexes:  [25 20 45 43]
+{"id": "ebece0da7ebd9ba9effab678", "status": "ok", "wall_seconds": 27.352771042002132}
+Selected Indexes:  [27 32  1 44]
+{"id": "b1612388dd7f6d4fc80ecf9d", "status": "ok", "wall_seconds": 22.481789000012213}
+Selected Indexes:  [23  1 39 13]
+{"id": "e2b3949e88e68653a0e45a68", "status": "ok", "wall_seconds": 23.572515124993515}
+Selected Indexes:  [ 9 37 42 18]
+{"id": "85ae72eda33d15c136543742", "status": "ok", "wall_seconds": 26.07480783300707}
+Selected Indexes:  [37 29 13 23]
+{"id": "e3230fb385d6c0035eb00c3f", "status": "ok", "wall_seconds": 25.678758708003443}
+Selected Indexes:  [37 29 13 23]
+{"id": "0508f9cffb747bf21c44d5f2", "status": "ok", "wall_seconds": 25.58650462499645}
+Selected Indexes:  [16 21 24 17]
+{"id": "fb3527df57f7102a223dcfe0", "status": "ok", "wall_seconds": 30.50250450000749}
+Selected Indexes:  [26 39 14 46]
+{"id": "3b90ddf67473afbe02d65d6f", "status": "ok", "wall_seconds": 37.9459313749976}
+Selected Indexes:  [17 24 21 20]
+{"id": "3489ab9e0f98d93fc9adc21c", "status": "ok", "wall_seconds": 27.660140791995218}
+Selected Indexes:  [29 37 13 23]
+{"id": "58619a7834ce52c787f373aa", "status": "ok", "wall_seconds": 20.959385750000365}
+Selected Indexes:  [ 4 47 30 10]
+{"id": "d131149fb9e7f1298eb1a161", "status": "ok", "wall_seconds": 22.508956624995335}
+Selected Indexes:  [18 20 33 24]
+{"id": "aec083b6e06c0ec1a2023737", "status": "ok", "wall_seconds": 22.6232584160025}
+Selected Indexes:  [34  8 35  6]
+{"id": "eb5eb05ea2e4bb27231a36d6", "status": "ok", "wall_seconds": 21.948005458005355}
+Selected Indexes:  [39  1 50 27]
+{"id": "e99739f1cdf689b4761876f3", "status": "ok", "wall_seconds": 18.05147712500184}
+Selected Indexes:  [50 45  9 42]
+{"id": "5785edd66d5ca576454515fa", "status": "ok", "wall_seconds": 27.55502625000372}
+Selected Indexes:  [27  5 28 15]
+{"id": "3bb17f2f6e8f243282d32905", "status": "ok", "wall_seconds": 22.73696445900714}
+Selected Indexes:  [30 10  4 47]
+{"id": "527217bb109b6b1e6e7a18df", "status": "ok", "wall_seconds": 29.166601582997828}
+Selected Indexes:  [ 6 35  8 34]
+{"id": "0beb13be0ee115a0b87f2e34", "status": "ok", "wall_seconds": 27.97167504200479}
+Selected Indexes:  [43 36 44  9]
+{"id": "ffdd7613fb5485867898a43d", "status": "ok", "wall_seconds": 34.91661075000593}
+Selected Indexes:  [ 9 42 45  8]
+{"id": "0dee2133db03bb7baa854ae8", "status": "ok", "wall_seconds": 24.340893749991665}
+Selected Indexes:  [ 3 38 12 45]
+{"id": "0aef616359925613bada1e20", "status": "ok", "wall_seconds": 29.96719037499861}
+Selected Indexes:  [ 2 40 33 30]
+{"id": "4612732b98b42e70dbe9c1d1", "status": "ok", "wall_seconds": 18.92776008301007}
+Selected Indexes:  [29 37 13 23]
+{"id": "a590ccade06f4fb9992ba17a", "status": "ok", "wall_seconds": 21.343752792003215}
+Selected Indexes:  [25 17 21 24]
+{"id": "142a8c7de9fca8e376c890dc", "status": "ok", "wall_seconds": 30.262034999992466}
+Selected Indexes:  [30 10 47  4]
+{"id": "3dd2c34802c688d16d2dcde6", "status": "ok", "wall_seconds": 27.626197708013933}
+Selected Indexes:  [18 25 43 17]
+{"id": "1ec22734d512a32d42c1bcc7", "status": "ok", "wall_seconds": 24.295783957990352}
+Selected Indexes:  [30  4 10 47]
+{"id": "e1beb2c268265f6f64cd2840", "status": "ok", "wall_seconds": 30.37848945899168}
+Selected Indexes:  [20 24 21 25]
+{"id": "2bf9aa47022ef9c9471bc733", "status": "ok", "wall_seconds": 21.072902041996713}
+Selected Indexes:  [21 24 20 17]
+{"id": "0532424c435077c0c4ccc21b", "status": "ok", "wall_seconds": 22.536604583001463}
+Selected Indexes:  [10 30 20  4]
+{"id": "a2aea9d71bc4e05fad270097", "status": "ok", "wall_seconds": 23.65421433300071}
+Selected Indexes:  [ 4 47 30 20]
+{"id": "912ac3c90ca2c10ef8f9640a", "status": "ok", "wall_seconds": 24.999728666996816}
+Selected Indexes:  [25 34 35 17]
+{"id": "39dc03e24a04bc70b7f397fd", "status": "ok", "wall_seconds": 24.886876666001626}
+Selected Indexes:  [21 24  2 40]
+{"id": "78cef3df35ecbb078e705165", "status": "ok", "wall_seconds": 18.78857291699387}
+Selected Indexes:  [37 47  4 29]
+{"id": "ec43368809c547ce40489bd4", "status": "ok", "wall_seconds": 27.02524520800216}
+Selected Indexes:  [11 22 41 17]
+{"id": "0e88088d157441b691bb7133", "status": "ok", "wall_seconds": 23.478777458003606}
+Selected Indexes:  [24 20 21  8]
+{"id": "99a078314716dce1e26c5487", "status": "ok", "wall_seconds": 18.023010292003164}
+Selected Indexes:  [36 44  1  7]
+{"id": "379ec53dc40e4dba8774462b", "status": "ok", "wall_seconds": 31.38647054199828}
+Selected Indexes:  [47  4 30 10]
+{"id": "fcd752eb90ac4f4e69a0817c", "status": "ok", "wall_seconds": 24.494092291002744}
+Selected Indexes:  [28 11 17 22]
+{"id": "3c4fdaf2fd5d47f415bdba5e", "status": "ok", "wall_seconds": 20.61534591599775}
+Selected Indexes:  [ 6  8 35 34]
+{"id": "640c4c676d46d73b4c2e6034", "status": "ok", "wall_seconds": 20.677652833008324}
+Selected Indexes:  [21 17 37 24]
+{"id": "87c02bcd6116d534ca624cab", "status": "ok", "wall_seconds": 19.509870457986835}
+Selected Indexes:  [35 34  8  6]
+{"id": "4e33612ba98c7648cadbf987", "status": "ok", "wall_seconds": 21.310655207998934}
+Selected Indexes:  [29 13 49 23]
+{"id": "4734d6882e725d76750d656f", "status": "ok", "wall_seconds": 22.44621791598911}
+Selected Indexes:  [26 39 14 46]
+{"id": "75ca1ddd54614bb07cc60ae7", "status": "ok", "wall_seconds": 32.52974399999948}
+Selected Indexes:  [47  4 30 10]
+{"id": "a3a7083b139f2128fd3da663", "status": "ok", "wall_seconds": 22.417455999995582}
+Selected Indexes:  [30  4 47 10]
+{"id": "45ae9e13d430ee8d3b638b2a", "status": "ok", "wall_seconds": 22.02157112500572}
+Selected Indexes:  [38  3 12  5]
+{"id": "5e6e3f8125d2aff74784737e", "status": "ok", "wall_seconds": 23.86124183300126}
+Selected Indexes:  [29 13 37 49]
+{"id": "fe6f7988d222ea61513acc1e", "status": "ok", "wall_seconds": 24.821059041991248}
+Selected Indexes:  [17 21 16 24]
+{"id": "a55f5da50b83f07d4b80fa8e", "status": "ok", "wall_seconds": 20.84976345799805}
+Selected Indexes:  [30  4 47 10]
+{"id": "db7b113d936f87feb7f49220", "status": "ok", "wall_seconds": 21.83863791600743}
+Selected Indexes:  [ 6 35  8 34]
+{"id": "e57e8bfe3da5d118b2ec9341", "status": "ok", "wall_seconds": 21.15580133300682}
+Selected Indexes:  [41 49  7  0]
+{"id": "e816da69c7ba8c1ec33e05e6", "status": "ok", "wall_seconds": 21.53153566700348}
+Selected Indexes:  [26 39 14 42]
+{"id": "547e3a08227280251bf10ea2", "status": "ok", "wall_seconds": 29.204942291995394}
+Selected Indexes:  [27 32  1 39]
+{"id": "d636b1dad394df6cf153bcf6", "status": "ok", "wall_seconds": 20.130826332999277}
+Selected Indexes:  [14 26 39 32]
+{"id": "408fbd1a62ec3d6893637c33", "status": "ok", "wall_seconds": 23.63149249998969}
+Selected Indexes:  [14 39 32 26]
+{"id": "69d62040d7f130f8d952d6f5", "status": "ok", "wall_seconds": 29.690367959003197}
+Selected Indexes:  [30 10 44 36]
+{"id": "56d2255b936198d5acba0e6a", "status": "ok", "wall_seconds": 25.947012792006717}
+Selected Indexes:  [40  2 24 21]
+{"id": "6b0531d603c76e11b88b52a9", "status": "ok", "wall_seconds": 18.824483749995125}
+Selected Indexes:  [41 49 11 22]
+{"id": "fdc4a3e7bc794ef3d2de888f", "status": "ok", "wall_seconds": 21.14544104100787}
+Selected Indexes:  [ 8 34 35  6]
+{"id": "d4ceb826fee38db7ce3dc133", "status": "ok", "wall_seconds": 19.400606124996557}
+Selected Indexes:  [27  5 28 15]
+{"id": "1294ec62e19d84de0e18757d", "status": "ok", "wall_seconds": 17.436438957985956}
+Selected Indexes:  [21 24  2 40]
+{"id": "b27e347b24ab0121dfff12c4", "status": "ok", "wall_seconds": 18.805261875008}
+Selected Indexes:  [17 25 43 21]
+{"id": "75f0cc699fc37afcec1ac2cc", "status": "ok", "wall_seconds": 20.99951149999106}
+Selected Indexes:  [36 44 50 45]
+{"id": "686b7073f32051455992d46f", "status": "ok", "wall_seconds": 53.04982179199578}
+Selected Indexes:  [26 39 14 32]
+{"id": "b5b402af7880ec6babf44fe8", "status": "ok", "wall_seconds": 22.069726166999317}
+Selected Indexes:  [ 4 47 30 10]
+{"id": "0be2d93ac2501d1a2dfbb70d", "status": "ok", "wall_seconds": 28.801377791998675}
+Selected Indexes:  [18 37 36 44]
+{"id": "49443292977d744616d399f7", "status": "ok", "wall_seconds": 20.565579999994952}
+Selected Indexes:  [42  9 37 36]
+{"id": "2aec12e8f7aae7b74e10ea6f", "status": "ok", "wall_seconds": 29.724399999991874}
+Selected Indexes:  [41 49 11 29]
+{"id": "db8c76e2e90a4d8185284e2b", "status": "ok", "wall_seconds": 22.176625125008286}
+Selected Indexes:  [44 36 18 45]
+{"id": "6174687ae032803091497980", "status": "ok", "wall_seconds": 25.01796483399812}
+Selected Indexes:  [46 31 19 26]
+{"id": "0624b17c3ade0d053d948d80", "status": "ok", "wall_seconds": 27.394816208005068}
+Selected Indexes:  [30 20 10  4]
+{"id": "91c6ec49c380c6ded3e7f431", "status": "ok", "wall_seconds": 24.222233042004518}
+Selected Indexes:  [46 19 31 26]
+{"id": "7de2cd1a8803a57e958ab563", "status": "ok", "wall_seconds": 29.00620204200095}
+Selected Indexes:  [16 17 21 24]
+{"id": "e7d5bb533664a4057ef252a0", "status": "ok", "wall_seconds": 21.771675084004528}
+Selected Indexes:  [39 26 14 37]
+{"id": "d13a3d8dcccf8853d891b897", "status": "ok", "wall_seconds": 24.257799333005096}
+Selected Indexes:  [30  4 20 47]
+{"id": "e21dcdbb9c3f2eb4df8aed40", "status": "ok", "wall_seconds": 23.465245166997192}
+Selected Indexes:  [19 46 31 26]
+{"id": "239174a68dc9a07f004059c3", "status": "ok", "wall_seconds": 26.671718249999685}
+Selected Indexes:  [49 41 11 23]
+{"id": "9af39bcf769275d1bb36313f", "status": "ok", "wall_seconds": 24.293652084001224}
+Selected Indexes:  [24 21 20 17]
+{"id": "36c9d874fbb091aa8ebf7a8a", "status": "ok", "wall_seconds": 18.698431124998024}
+Selected Indexes:  [32 14 39 26]
+{"id": "3f83073f34758de8992ab620", "status": "ok", "wall_seconds": 24.30814749999263}
+Selected Indexes:  [17 20 24 21]
+{"id": "bc8e88b85e76a1e8809c6002", "status": "ok", "wall_seconds": 21.41257499999483}
+Selected Indexes:  [44 36 45 22]
+{"id": "60a37804a321982b0b33a7ba", "status": "ok", "wall_seconds": 26.75922295798955}
+Selected Indexes:  [ 8 35 34  6]
+{"id": "0cb9cd4d3446072b963c0531", "status": "ok", "wall_seconds": 23.30439312499948}
+Selected Indexes:  [15 33 21 34]
+{"id": "d128fac60a8ba8e2b340afac", "status": "ok", "wall_seconds": 25.656241624994436}
+Selected Indexes:  [36 44 37 18]
+{"id": "5bcc2293713199069fdd6ad7", "status": "ok", "wall_seconds": 24.295097334004822}
+Selected Indexes:  [30 47  4 10]
+{"id": "d437b3a734e2d1ae30baf6ef", "status": "ok", "wall_seconds": 26.047770625009434}
+Selected Indexes:  [27 15  5 33]
+{"id": "b4b7defedc7fefb004c4026d", "status": "ok", "wall_seconds": 19.072411250002915}
+Selected Indexes:  [39 26  7 37]
+{"id": "276e7b7746a3012cc0c78c88", "status": "ok", "wall_seconds": 22.057157208007993}
+Selected Indexes:  [37 29 13 11]
+{"id": "5d01224d49551cfb2b527db1", "status": "ok", "wall_seconds": 21.21218712499831}
+Selected Indexes:  [44 36 42 45]
+{"id": "f4635eb26f94f653dbffd0ee", "status": "ok", "wall_seconds": 24.189537750004092}
+Selected Indexes:  [17 25 21 43]
+{"id": "1e1a8f622a792cde98ad0355", "status": "ok", "wall_seconds": 22.039998292006203}
+Selected Indexes:  [29 13 37 36]
+{"id": "97d8ecff488d6a99c726a041", "status": "ok", "wall_seconds": 24.536558874999173}
+Selected Indexes:  [30 20 10  4]
+{"id": "fd55aec4f58401aff6914ab0", "status": "ok", "wall_seconds": 33.11703704200045}
+Selected Indexes:  [36 44 18 50]
+{"id": "63bce6b5671ca71e950583a3", "status": "ok", "wall_seconds": 35.44628437500796}
+Selected Indexes:  [30 10  4 20]
+{"id": "133410fc218f82442ea730ee", "status": "ok", "wall_seconds": 29.35658587499347}
+Selected Indexes:  [ 3 12 38 50]
+{"id": "e29c33bb1ca5a5d4c1e18b28", "status": "ok", "wall_seconds": 31.265704750010627}
+Selected Indexes:  [ 4 15 47 10]
+{"id": "88e7b3f9dcd8c8c076331ee9", "status": "ok", "wall_seconds": 19.964636040996993}
+Selected Indexes:  [ 7 41 22 49]
+{"id": "ad27fcbd78cb3b4b3ec563b9", "status": "ok", "wall_seconds": 24.00243949999276}
+Selected Indexes:  [22 11 17 41]
+{"id": "2e7c4ead896393b749900b1d", "status": "ok", "wall_seconds": 23.80199629199342}
+Selected Indexes:  [40  2 24 21]
+{"id": "49714d656912cc7a5459d19b", "status": "ok", "wall_seconds": 16.157331042006263}
+Selected Indexes:  [33 15 48 20]
+{"id": "46f0341729d8c00bb058bb51", "status": "ok", "wall_seconds": 21.638067624997348}
+Selected Indexes:  [50 45  9 42]
+{"id": "b1ced0fa38320e8f57f67c56", "status": "ok", "wall_seconds": 28.461374250007793}
+Selected Indexes:  [31 19 46 26]
+{"id": "3e939c34a70c53f827ea49ea", "status": "ok", "wall_seconds": 32.71880337499897}
+Selected Indexes:  [13 29 37 23]
+{"id": "0fea57bea456a0fd0e713a0e", "status": "ok", "wall_seconds": 25.826512333005667}
+Selected Indexes:  [15 33 20 16]
+{"id": "64cb67ecce2c90e4262b374e", "status": "ok", "wall_seconds": 37.05375695799012}
+Selected Indexes:  [34 35  8  6]
+{"id": "4cfed294c9b44cb563ee2934", "status": "ok", "wall_seconds": 29.442801958008204}
+Selected Indexes:  [41  7 49 13]
+{"id": "665e35514c2a2b9f901cfeb2", "status": "ok", "wall_seconds": 27.030913124996005}
+Selected Indexes:  [37 29 13 23]
+{"id": "98060833b5d759d7a5824646", "status": "ok", "wall_seconds": 23.925735208002152}
+Selected Indexes:  [ 4 47 30 10]
+{"id": "03646e6e695d8c030b65b9a7", "status": "ok", "wall_seconds": 24.48396620899439}
+Selected Indexes:  [43 25 17 21]
+{"id": "7b25ce8fe3a377ebc33f7c53", "status": "ok", "wall_seconds": 23.67407841599197}
+Selected Indexes:  [40  2 24 21]
+{"id": "163c746f1373ea639f8c606f", "status": "ok", "wall_seconds": 20.137931249992107}
+Selected Indexes:  [29 37 13 23]
+{"id": "055fd5dc788e35ffb6e06522", "status": "ok", "wall_seconds": 23.69641866699385}
+Selected Indexes:  [31 19 46 26]
+{"id": "ad9de1e744592f95e04de1ba", "status": "ok", "wall_seconds": 24.275119333993644}
+Selected Indexes:  [12  3 38 20]
+{"id": "0f32a17d50f1ada3b884a280", "status": "ok", "wall_seconds": 33.5118797920004}
+Selected Indexes:  [49 11 23 41]
+{"id": "fe78f6390b3c9844bd8ecf1e", "status": "ok", "wall_seconds": 30.709218999996665}
+Selected Indexes:  [26 39 42 32]
+{"id": "a46a4335b5513f159b85c779", "status": "ok", "wall_seconds": 28.516535959002795}
+Selected Indexes:  [20 30 10 24]
+{"id": "87cd7c23faca26cd15fe57a1", "status": "ok", "wall_seconds": 28.700658624991775}
+Selected Indexes:  [30  4 20 47]
+{"id": "f25c1c63af86387e73fde61c", "status": "ok", "wall_seconds": 25.41167679100181}
+Selected Indexes:  [35 34  8  6]
+{"id": "ae336bcee6aaed32fe9844cb", "status": "ok", "wall_seconds": 23.955776165996213}
+Selected Indexes:  [39 14 26 19]
+{"id": "4587e575793cfe8e5db11c25", "status": "ok", "wall_seconds": 38.20475666600396}
+Selected Indexes:  [19 46 31 26]
+{"id": "d26883d724595f4891219e73", "status": "ok", "wall_seconds": 26.834445875007077}
+Selected Indexes:  [16 17 21 24]
+{"id": "bfd3ec2df37b4f9695355098", "status": "ok", "wall_seconds": 24.14597374999721}
+Selected Indexes:  [24 21 25 43]
+{"id": "62758eec8c515a34f5661722", "status": "ok", "wall_seconds": 19.29199520900147}
+Selected Indexes:  [27 28  5 22]
+{"id": "864d8fd9d75215ee62fd8636", "status": "ok", "wall_seconds": 17.946863166012918}
+Selected Indexes:  [41 49 11  7]
+{"id": "6c698d1a841b3788b471c23a", "status": "ok", "wall_seconds": 23.309504791002837}
+Selected Indexes:  [42 45  9  8]
+{"id": "e097ef2c9ade759a0d18d239", "status": "ok", "wall_seconds": 21.627846707997378}
+Selected Indexes:  [31 19 46 26]
+{"id": "b1130e44c6ccad4a4e54d6a3", "status": "ok", "wall_seconds": 26.058166624992737}
+Selected Indexes:  [44 36 50  1]
+{"id": "9314f218bfc0de880cd4dfec", "status": "ok", "wall_seconds": 30.08218204100558}
+Selected Indexes:  [29 37 13 23]
+{"id": "665bd31d669256b3bb9f54ed", "status": "ok", "wall_seconds": 22.445063624996692}
+Selected Indexes:  [13 29 37 23]
+{"id": "117557a9e3cf775f9b43177c", "status": "ok", "wall_seconds": 31.65770604199497}
+Selected Indexes:  [15 33 48 20]
+{"id": "1c3adc3509e2ca4583b9a6dc", "status": "ok", "wall_seconds": 19.351127125002677}
+Selected Indexes:  [ 9 50 42 18]
+{"id": "61abc8116278b9f6bad3587e", "status": "ok", "wall_seconds": 32.88708166699507}
+Selected Indexes:  [ 6 35  8 34]
+{"id": "332e6abaca206e06b18caf84", "status": "ok", "wall_seconds": 22.65302591699583}
+Selected Indexes:  [50 45  8 42]
+{"id": "bcb3ade5aa223f981b97266b", "status": "ok", "wall_seconds": 31.14827374999004}
+Selected Indexes:  [45  8 35 34]
+{"id": "a5b6d1a7b4282d3e08c0f621", "status": "ok", "wall_seconds": 30.313000875001308}
+Selected Indexes:  [ 6  8 35 34]
+{"id": "503719f3b91eca069bd9e299", "status": "ok", "wall_seconds": 19.569306917008362}
+Selected Indexes:  [ 1 27 39 36]
+{"id": "c8d23fb0310536e59568dd32", "status": "ok", "wall_seconds": 19.53728991698881}
+Selected Indexes:  [14 39 32 26]
+{"id": "1a3673e48b4e9c6473f6071c", "status": "ok", "wall_seconds": 28.16989033400023}
+Selected Indexes:  [29 13 37 23]
+{"id": "ea6006ba297e71728148556e", "status": "ok", "wall_seconds": 30.312419291003607}
+Selected Indexes:  [25 34  8 35]
+{"id": "592549fb2576d35aec19014d", "status": "ok", "wall_seconds": 28.32001237499935}
+Selected Indexes:  [21 24 17 20]
+{"id": "2e28015ed30143ca413ca39a", "status": "ok", "wall_seconds": 20.306870583997807}
+Selected Indexes:  [50 45  9 42]
+{"id": "9f6c39eee1b3418005fb20bb", "status": "ok", "wall_seconds": 32.653103125005146}
+Selected Indexes:  [17 21 24 37]
+{"id": "463408c2a8991f3468ffa3bc", "status": "ok", "wall_seconds": 25.5099772909889}
+Selected Indexes:  [29 13 37 23]
+{"id": "b2fa1567509d1890a4dc1ac8", "status": "ok", "wall_seconds": 26.685490458010463}
+Selected Indexes:  [25 20 45 34]
+{"id": "717c02600a6edd60dee83493", "status": "ok", "wall_seconds": 24.323921374991187}
+Selected Indexes:  [26 39 14 32]
+{"id": "94853c213c56796b6b9a35dc", "status": "ok", "wall_seconds": 26.813846709002974}
+Selected Indexes:  [22 49 36 41]
+{"id": "615046d9ac557ac3ddf49bcb", "status": "ok", "wall_seconds": 28.95848054200178}
+Selected Indexes:  [44 36 18 37]
+{"id": "7cfd87d05030536ba6bd8d30", "status": "ok", "wall_seconds": 22.30311208299827}
+Selected Indexes:  [49 41  7 23]
+{"id": "962ea4216156dd2018f2022b", "status": "ok", "wall_seconds": 24.262079666994396}
+Selected Indexes:  [19 46 31 39]
+{"id": "a083aaa9d006465ad6f5d0c8", "status": "ok", "wall_seconds": 33.76026529099909}
+Selected Indexes:  [49 22 41 11]
+{"id": "528cb91d803e1da2f749e490", "status": "ok", "wall_seconds": 28.809797999987495}
+Selected Indexes:  [ 7 41 49 11]
+{"id": "0bf251a550060faf1153800c", "status": "ok", "wall_seconds": 26.93224758299766}
+Selected Indexes:  [ 4 47 30 10]
+{"id": "801ff4607d9b4ee77dcfb8c0", "status": "ok", "wall_seconds": 26.23950799999875}
+Selected Indexes:  [31 19 46 26]
+{"id": "fd8ad6f85f58a32b9368f2ad", "status": "ok", "wall_seconds": 33.46781970800657}
+Selected Indexes:  [27 39  1  5]
+{"id": "78f03cb7fce61762ad5027ba", "status": "ok", "wall_seconds": 18.430303457993432}

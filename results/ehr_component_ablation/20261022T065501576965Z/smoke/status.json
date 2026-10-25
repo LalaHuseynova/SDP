@@ -1,0 +1,7 @@
+{
+  "stage": "smoke",
+  "questions": 2,
+  "records": 6,
+  "failures": 0,
+  "checker_failures": 0
+}

@@ -1,2 +1,0 @@
-Orion progress note
-Orion progress: integration testing is complete and documentation remains open.

@@ -1,0 +1,13 @@
+{
+  "status": "completed_with_recorded_output_failures",
+  "episodes": 732,
+  "completed_responses": 730,
+  "truncated_outputs": 2,
+  "invalid_python_outputs": 3,
+  "evaluation_calls": 3294,
+  "evaluation_tokens": 5591831,
+  "env_unchanged": true,
+  "pilot_artifacts_unchanged": true,
+  "verification": "passed",
+  "no_new_API_calls_during_recovery": true
+}

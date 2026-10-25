@@ -11,7 +11,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
-from contextual_memory.code_assessment import assess_code
+from EhrAgent.ehragent.code_assessment import assess_code
 
 ARMS = ('benign_no_defense', 'benign_amemguard', 'attack_no_defense', 'attack_amemguard')
 DEFAULT = ROOT/'results/full/ehr/runs/20261016T180143Z'
@@ -98,7 +98,7 @@ def reassess(source, output_root=None):
     if dest == source or source in dest.parents:
         raise ValueError('Reassessment must be outside the historical run.')
     dest.mkdir(parents=True, exist_ok=False)
-    sources = [Path(__file__).resolve(), ROOT/'contextual_memory/code_assessment.py']
+    sources = [Path(__file__).resolve(), ROOT/'EhrAgent/ehragent/code_assessment.py']
     for path in sources:
         target = dest/'source_snapshot'/path.relative_to(ROOT)
         target.parent.mkdir(parents=True, exist_ok=True)

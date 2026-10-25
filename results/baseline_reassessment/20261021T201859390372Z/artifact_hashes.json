@@ -1,0 +1,9 @@
+{
+  "metrics.json": "4573970fe01ffff29b879c0a1f7f0beb6a2870ad369f2b000bf05f45454bfaf7",
+  "REPORT.md": "73675120913c4e7ad0b480a84f74e42a6d20608f95e08af741002ece864d34f5",
+  "manifest.json": "3dc3fb03980e07cc0be775d945107a3b35531430ff550b26139a46cbf84611df",
+  "records.json": "af64deadf187a0722d97e4a8bafe08b484f66fdcc1266af9d7899bfbb0bf2c14",
+  "verification.json": "337c48ae7888768b93cca4b255c71e04aa925d1921e0b94ac94a993d4c7be927",
+  "source_snapshot/contextual_memory/code_assessment.py": "423971d596a975510345670ca6b764aabd82839ebec799344571eac9403f68d9",
+  "source_snapshot/scripts/ehragent/reassess_saved.py": "8b4f2bd52d3d78e3de82e5d71932c746f89b5d286ae9e1e0c21790e4f891ae74"
+}

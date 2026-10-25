@@ -1,0 +1,15 @@
+Split saved: 16 train,20 held-out,1 smoke; memory records=51, missing evaluation reference matches=13; no questions dropped
+Command argv (no shell): ["/Users/ulkerhuseynova/Downloads/AMemGuard/.venv/bin/python", "/Users/ulkerhuseynova/Downloads/AMemGuard/EhrAgent/ehragent/main.py", "--subset_file", "/Users/ulkerhuseynova/Downloads/AMemGuard/results/small/ehr/runs/20261016T171435Z/split.json", "--subset_key", "smoke", "--num_questions", "1", "--seed", "0", "--num_shots", "4", "--num_lessons", "4", "--llm", "openai/gpt-4o-mini", "--trigger", "temporary smoke trigger", "--save_dir", "/Users/ulkerhuseynova/Downloads/AMemGuard/results/small/ehr/runs/20261016T171435Z/smoke_baseline", "--attack"]
+Exit=0; output=results/small/ehr/runs/20261016T171435Z/smoke_baseline.stdout.txt
+Command argv (no shell): ["/Users/ulkerhuseynova/Downloads/AMemGuard/.venv/bin/python", "/Users/ulkerhuseynova/Downloads/AMemGuard/EhrAgent/ehragent/main.py", "--subset_file", "/Users/ulkerhuseynova/Downloads/AMemGuard/results/small/ehr/runs/20261016T171435Z/split.json", "--subset_key", "smoke", "--num_questions", "1", "--seed", "0", "--num_shots", "4", "--num_lessons", "4", "--llm", "openai/gpt-4o-mini", "--trigger", "temporary smoke trigger", "--save_dir", "/Users/ulkerhuseynova/Downloads/AMemGuard/results/small/ehr/runs/20261016T171435Z/smoke_defended", "--audit_method", "A-MemGuard", "--attack"]
+Exit=1; output=results/small/ehr/runs/20261016T171435Z/smoke_defended.stdout.txt
+Stopped: Stage failed: /Users/ulkerhuseynova/Downloads/AMemGuard/results/small/ehr/runs/20261016T171435Z/smoke_defended.stdout.txt
+Run artifacts: /Users/ulkerhuseynova/Downloads/AMemGuard/results/small/ehr/runs/20261016T171435Z
+Traceback (most recent call last):
+  File "/Users/ulkerhuseynova/Downloads/AMemGuard/scripts/ehragent/run_small.py", line 95, in <module>
+    if __name__=='__main__':main()
+  File "/Users/ulkerhuseynova/Downloads/AMemGuard/scripts/ehragent/run_small.py", line 69, in main
+    command(episode_args(run/name,'temporary smoke trigger',key='smoke',defense=defense,attack=True),bounded,run/(name+'.stdout.txt'))
+  File "/Users/ulkerhuseynova/Downloads/AMemGuard/scripts/ehragent/run_small.py", line 24, in command
+    if result.returncode:raise RuntimeError('Stage failed: '+str(log_path))
+RuntimeError: Stage failed: /Users/ulkerhuseynova/Downloads/AMemGuard/results/small/ehr/runs/20261016T171435Z/smoke_defended.stdout.txt
